@@ -18,7 +18,7 @@
       <div class="align-center" :class="[__window.width <= 900 ? 'column' : 'row']">
         <basic-dropdown class="margin-10" :dropdown="__admin.filters.action"/>
         <basic-dropdown class="margin-10" :dropdown="__admin.filters.media"/>
-        <basic-link-button class="margin-10" style="width: 270px" :button="comments.button"/>
+        <basic-link-button class="margin-10" style="width: 290px" :button="comments.button"/>
       </div>
       <router-view/>
     </div>
