@@ -1,7 +1,7 @@
 <template>
   <div class="journals column align-center">
-    <h1 class="title-sentence">Je Science donc J'écris</h1>
-    <p class="normal-sentence">Cette rubrique contient tous les journaux que nous produisons, sortant tous les 25 du mois, de Septembre à Juin. N'hésitez pas à commenter et à nous faire part de vos avis sous chaque journal, et à nous contacter si avez la moindre question.<br><br> L'équipe de JS² vous souhaite une bonne lecture !</p>
+    <h1 class="title-sentence">{{$t("journal.title")}}</h1>
+    <p class="normal-sentence" v-html="$t('journal.description')"></p>
     <div class="filters" :class="[__window.width <= 900 ? 'column' : 'row']">
       <basic-dropdown class="margin-10" :dropdown="journals.filters.date"/>
       <basic-dropdown class="margin-10" :dropdown="journals.filters.title"/>
@@ -98,6 +98,10 @@ export default {
       let journals = this.journals
 
       journals.content.sort((a, b) => {
+        if (this.$i18n.locale === 'en') {
+          return ('' + a.titleEn).localeCompare(b.titleEn)
+        }
+
         return ('' + a.title).localeCompare(b.title)
       })
     },
@@ -105,6 +109,10 @@ export default {
       let journals = this.journals
 
       journals.content.sort((a, b) => {
+        if (this.$i18n.locale === 'en') {
+          return ('' + b.titleEn).localeCompare(a.titleEn)
+        }
+
         return ('' + b.title).localeCompare(a.title)
       })
     }

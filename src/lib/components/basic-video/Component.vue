@@ -1,13 +1,13 @@
 <template>
   <div class="basic-video column align-center">
-    <h1 class="video-title text-center">{{video.title}}</h1>
+    <h1 class="video-title text-center">{{__video.title}}</h1>
     <div class="div-video-frame row justi-center align-center">
-      <iframe class="video-frame" :src="video.video.url" frameborder="0" allowfullscreen></iframe>
+      <iframe class="video-frame" :src="__video.video.url" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="column">
-      <p class="video-date">Créé le : <span>{{video.createdAt | moment("Do MMMM YYYY à H:mm")}}</span></p>
-      <p class="video-date" v-if="video.modifiedAt">Modifié le : <span>{{video.modifiedAt | moment("Do MMMM YYYY à H:mm")}}</span></p>
-      <p class="video-main" v-html="noDoubleCote(video.main)"></p>
+      <p class="video-date">{{$t('created_at')}} : <span>{{__video.createdAt | moment("Do MMMM YYYY - H:mm")}}</span></p>
+      <p class="video-date" v-if="__video.modifiedAt">{{$t('modified_at')}} : <span>{{__video.modifiedAt | moment("Do MMMM YYYY - H:mm")}}</span></p>
+      <p class="video-main" v-html="noDoubleCote(__video.main)"></p>
     </div>
   </div>
 </template>
@@ -18,6 +18,23 @@ export default {
   computed: {
     __window () {
       return this.$store.state.window
+    },
+    __video () {
+      if (this.$i18n.locale !== 'en') {
+        return this.video
+      } else {
+        let video = JSON.parse(JSON.stringify(this.video))
+
+        if (video.titleEn) {
+          video.title = video.titleEn
+        }
+
+        if (video.mainEn) {
+          video.main = video.mainEn
+        }
+
+        return video
+      }
     }
   },
   methods: {

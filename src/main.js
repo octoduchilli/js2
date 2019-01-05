@@ -9,6 +9,24 @@ import store from './store'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 
+import VueI18n from 'vue-i18n'
+import en from './locales/en/translations'
+import fr from './locales/fr/translations'
+
+Vue.use(VueI18n)
+
+const locale = 'en'
+
+const messages = {
+  en: en,
+  fr: fr
+}
+
+const i18n = new VueI18n({
+  locale,
+  messages
+})
+
 // Vue.use(VueResource)
 Vue.use(VueAxios, axios)
 Vue.use(VueFire)
@@ -51,6 +69,9 @@ new Vue({
   el: '#app',
   router,
   store,
+  i18n,
   components: { App },
   template: '<App/>'
 })
+
+export default i18n

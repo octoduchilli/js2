@@ -2,7 +2,7 @@
   <div class="show-journal column">
     <div @click="$router.go(-1)" class="back row align-center">
       <img class="back-arrow" src="/static/img/buttons/basics/left-arrow-white.png" alt="ARROW">
-      <p class="back-label">RETOUR</p>
+      <p class="back-label">{{$t('back')}}</p>
     </div>
     <basic-article v-if="__journal" :article="__journal"/>
     <h1 class="text-center" v-else>Un instant...</h1>

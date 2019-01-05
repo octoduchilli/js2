@@ -7,22 +7,22 @@
         </router-link>
         <ul class="nav-links basic-list row width justi-around align-center">
           <li @click="$store.state.route.selected = 0" class="nav-link">
-            <router-link class="link" :class="{'link-active': __route.selected === 0}" to="/">ACCUEIL</router-link>
+            <router-link class="link" :class="{'link-active': __route.selected === 0}" to="/">{{$t("home.home")}}</router-link>
           </li>
           <li @click="$store.state.route.selected = 1" class="nav-link">
-            <router-link class="link" :class="{'link-active': __route.selected === 1}" to="/journals">JOURNAL</router-link>
+            <router-link class="link" :class="{'link-active': __route.selected === 1}" to="/journals">{{$t("journal_s")}}</router-link>
           </li>
           <li @click="$store.state.route.selected = 2" class="nav-link">
-            <router-link class="link" :class="{'link-active': __route.selected === 2}" to="/news">ACTUALITES</router-link>
+            <router-link class="link" :class="{'link-active': __route.selected === 2}" to="/news">{{$t("new_s")}}</router-link>
           </li>
           <li @click="$store.state.route.selected = 3" class="nav-link">
-            <router-link class="link" :class="{'link-active': __route.selected === 3}" to="/videos">VIDEOS</router-link>
+            <router-link class="link" :class="{'link-active': __route.selected === 3}" to="/videos">{{$t("video_s")}}</router-link>
           </li>
           <li @click="$store.state.route.selected = 4" class="nav-link">
-            <router-link class="link" :class="{'link-active': __route.selected === 4}" to="/about">A PROPOS</router-link>
+            <router-link class="link" :class="{'link-active': __route.selected === 4}" to="/about">{{$t("about.about")}}</router-link>
           </li>
           <li @click="$store.state.route.selected = 5" class="nav-link">
-            <router-link class="link" :class="{'link-active': __route.selected === 5}" to="/contact">CONTACT</router-link>
+            <router-link class="link" :class="{'link-active': __route.selected === 5}" to="/contact">{{$t("contact.contact")}}</router-link>
           </li>
         </ul>
       </nav>
@@ -51,11 +51,18 @@
     </header>
     <router-view/>
     <footer class="main-footer row">
-      <a href="https://www.linkedin.com/in/josselin-ada/" class="link row align-center text-center">
-        <img src="/static/img/buttons/basics/linkedin.png" alt="Linkedin">
-        <img src="/static/img/buttons/basics/seo-white.png" alt=" ">
-        <p>Developed & Designed by Josselin ADA</p>
-      </a>
+      <div class="main-footer__language">
+        <p class="language__message">{{$t('change_language')}}</p>
+        <img class="language__flag-img" :class="[$i18n.locale === 'fr' ? 'is--selected' : '']" src="/static/img/flags/fr.jpg" alt="" @click="$i18n.locale = 'fr'">
+        <img class="language__flag-img" :class="[$i18n.locale === 'en' ? 'is--selected' : '']"  src="/static/img/flags/en.jpg" alt="" @click="$i18n.locale = 'en'">
+      </div>
+      <div class="main-footer__developper">
+        <a href="https://www.linkedin.com/in/josselin-ada/" class="link row align-center text-center">
+          <img src="/static/img/buttons/basics/linkedin.png" alt="Linkedin">
+          <img src="/static/img/buttons/basics/seo-white.png" alt=" ">
+          <p>{{$t('dev_and_des_by')}} Josselin ADA</p>
+        </a>
+      </div>
     </footer>
   </div>
 </template>
@@ -232,6 +239,8 @@ export default {
         .nav-link {
           height: 100%;
 
+          text-transform: uppercase;
+
           .link {
             height: calc(100% - 5px);
 
@@ -298,30 +307,71 @@ export default {
 
     width: 100%;
 
-    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
 
-    background: var(--black40);
+    font-family: 'Viga', sans-serif;
 
-    a {
-      font-family: 'Viga', sans-serif;
+    .main-footer__language, .main-footer__developper {
+      display: flex;
+      justify-content: flex-end;
+
+      padding: 5px 10px;
+    }
+
+    .main-footer__language {
+      background: var(--black60);
 
       color: var(--creme);
 
-      margin-right: 10px;
-
-      transition: .5s ease;
-
-      opacity: .5;
-
-      &:hover {
-        opacity: 1;
+      .language__message {
+        margin-right: 10px;
       }
 
-      img {
-        width: 25px;
-        height: 25px;
+      .language__flag-img {
+        height: 30px;
+        width: 50px;
 
-        margin: 5px
+        border-radius: 5px;
+
+        margin: auto 5px;
+
+        cursor: pointer;
+
+        opacity: .7;
+
+        transition: 300ms ease;
+
+        &.is--selected {
+          opacity: 1;
+        }
+      }
+    }
+
+    .main-footer__developper {
+      background: var(--black40);
+
+      a {
+        font-family: 'Viga', sans-serif;
+
+        color: var(--creme);
+
+        margin-right: 10px;
+
+        transition: .5s ease;
+
+        opacity: .5;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        img {
+          width: 25px;
+          height: 25px;
+
+          margin: 5px
+        }
       }
     }
   }
@@ -346,6 +396,12 @@ export default {
           }
         }
       }
+    }
+  }
+
+  @media (min-width: 1000px) {
+    #app {
+      font-size: 110%;
     }
   }
 </style>

@@ -2,7 +2,7 @@
   <div class="show-video column">
     <div @click="$router.go(-1)" class="back row align-center">
       <img class="back-arrow" src="/static/img/buttons/basics/left-arrow-white.png" alt="ARROW">
-      <p class="back-label">RETOUR</p>
+      <p class="back-label">{{$t('back')}}</p>
     </div>
     <basic-video v-if="__video" :video="__video"/>
     <h1 class="text-center" v-else>Un instant...</h1>

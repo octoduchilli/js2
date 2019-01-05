@@ -2,7 +2,7 @@
   <div class="basic-message row">
     <div class="message-infos column">
       <p class="name">{{message.name}}</p>
-      <p class="date">{{message.createdAt | moment("Do MMMM YYYY à H:mm")}}</p>
+      <p class="date">{{message.createdAt | moment("Do MMMM YYYY - H:mm")}}</p>
     </div>
     <div class="message">
       <div v-if="__admin.uid" class="admin-buttons row width">

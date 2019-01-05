@@ -76,12 +76,12 @@ export default new Vuex.Store({
       content: [],
       name: 'journals',
       show: {
-        sentence: 'Voir le journal'
+        sentence: 'see_journal'
       },
       logo: '/static/img/buttons/header/newspaper-black.png',
       filters: {
         date: {
-          label: 'DATE',
+          label: 'date',
           selected: 2,
           mouse: {
             over: false,
@@ -90,16 +90,16 @@ export default new Vuex.Store({
           content: [
             {
               id: 1,
-              name: 'PLUS ANCIEN'
+              name: 'least_recent'
             },
             {
               id: 2,
-              name: 'PLUS RÉCENT'
+              name: 'most_recent'
             }
           ]
         },
         title: {
-          label: 'TITRE',
+          label: 'title',
           selected: 0,
           mouse: {
             over: false,
@@ -108,11 +108,11 @@ export default new Vuex.Store({
           content: [
             {
               id: 1,
-              name: 'De A à Z'
+              name: 'a_to_z'
             },
             {
               id: 2,
-              name: 'De Z à A'
+              name: 'z_to_a'
             }
           ]
         }
@@ -122,12 +122,12 @@ export default new Vuex.Store({
       content: [],
       name: 'news',
       show: {
-        sentence: 'Voir l\'actualité'
+        sentence: 'see_new'
       },
       logo: '/static/img/buttons/header/news-black.png',
       filters: {
         date: {
-          label: 'DATE',
+          label: 'date',
           selected: 2,
           mouse: {
             over: false,
@@ -136,16 +136,16 @@ export default new Vuex.Store({
           content: [
             {
               id: 1,
-              name: 'PLUS ANCIEN'
+              name: 'least_recent'
             },
             {
               id: 2,
-              name: 'PLUS RÉCENT'
+              name: 'most_recent'
             }
           ]
         },
         title: {
-          label: 'TITRE',
+          label: 'title',
           selected: 0,
           mouse: {
             over: false,
@@ -154,11 +154,11 @@ export default new Vuex.Store({
           content: [
             {
               id: 1,
-              name: 'De A à Z'
+              name: 'a_to_z'
             },
             {
               id: 2,
-              name: 'De Z à A'
+              name: 'z_to_a'
             }
           ]
         }
@@ -168,12 +168,12 @@ export default new Vuex.Store({
       content: [],
       name: 'videos',
       show: {
-        sentence: 'Voir la vidéo'
+        sentence: 'see_video'
       },
       logo: '/static/img/buttons/header/play-black.png',
       filters: {
         date: {
-          label: 'DATE',
+          label: 'date',
           selected: 2,
           mouse: {
             over: false,
@@ -182,16 +182,16 @@ export default new Vuex.Store({
           content: [
             {
               id: 1,
-              name: 'PLUS ANCIEN'
+              name: 'least_recent'
             },
             {
               id: 2,
-              name: 'PLUS RÉCENT'
+              name: 'most_recent'
             }
           ]
         },
         title: {
-          label: 'TITRE',
+          label: 'title',
           selected: 0,
           mouse: {
             over: false,
@@ -200,11 +200,11 @@ export default new Vuex.Store({
           content: [
             {
               id: 1,
-              name: 'De A à Z'
+              name: 'a_to_z'
             },
             {
               id: 2,
-              name: 'De Z à A'
+              name: 'z_to_a'
             }
           ]
         }

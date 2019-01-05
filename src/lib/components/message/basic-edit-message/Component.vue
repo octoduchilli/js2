@@ -3,8 +3,8 @@
     <basic-input v-if="!created" class="margin-10" :input="name.input"/>
     <basic-textarea v-if="!created" class="margin-10" rows="15" cols="30" :textarea="message.input"/>
     <basic-button v-if="!created" :style="{'opacity': !__canCreate ? '.3' : '1'}" :button="button"/>
-    <h1 v-if="created" class="text-center">Merci pour votre commentaire !</h1>
-    <p v-if="created" class="text-center">Nos administrateurs examineront bientôt votre commentaire pour le mettre en ligne.</p>
+    <h1 v-if="created" class="text-center">{{$t('thanks_for_comment')}}</h1>
+    <p v-if="created" class="text-center">{{$t('admin_review_comment')}}</p>
   </div>
 </template>
 
@@ -19,19 +19,21 @@ export default {
       name: {
         input: {
           text: '',
-          label: 'Prénom Nom*',
+          label: 'name',
+          needed: true,
           type: 'text'
         }
       },
       message: {
         input: {
           text: '',
-          label: 'Votre commentaire*'
+          label: 'your_comment',
+          needed: true
         }
       },
       button: {
         click: false,
-        label: 'POSTER'
+        label: 'send'
       }
     }
   },

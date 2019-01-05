@@ -2,11 +2,11 @@
   <div class="home">
     <section>
       <img class="logo animated fadeInLeft" :src="`${logo.mouseover ? '/static/img/logo/no-bg.png' : '/static/img/logo/base.png'}`" @mouseover="logo.mouseover = true" @mouseout="logo.mouseover = false" alt="JS2">
-      <h1 class="logo-title">LA SCIENCE & VOUS</h1>
+      <h1 class="logo-title">{{$t("home.title")}}</h1>
     </section>
     <section>
-      <p class="normal-sentence">Bienvenue sur le site de l'association JS2, association de vulgarisation scientifique.  Nous espérons que tous nos projets vous plairont et que nous vous apprendrons beaucoup de choses intéressantes. Bonne visite !</p>
-      <h1 class="title-sentence text-center">Les derniers articles :</h1>
+      <p class="normal-sentence">{{$t("home.description")}}</p>
+      <h1 class="title-sentence text-center">{{$t("home.last_article")}} :</h1>
       <div class="last-articles" v-if="__list" v-for="list in __list" :key="list.id">
         <basic-card-list v-if="list.content" :list="list"/>
         <basic-link-button style="width: 200px; margin: 10px auto" :button="list.button"/>
@@ -72,12 +72,12 @@ export default {
           id: 1,
           name: 'journals',
           show: {
-            sentence: 'Voir le journal'
+            sentence: 'see_journal'
           },
           logo: '/static/img/buttons/header/newspaper-black.png',
           button: {
             path: '/journals',
-            label: 'Liste des journaux',
+            label: 'home.journal_list',
             logo: '/static/img/buttons/header/newspaper-white.png'
           },
           content: journal ? [journal] : null
@@ -87,12 +87,12 @@ export default {
           id: 2,
           name: 'news',
           show: {
-            sentence: 'Voir l\'actualité',
+            sentence: 'see_new',
           },
           logo: '/static/img/buttons/header/news-black.png',
           button: {
             path: '/news',
-            label: 'Liste des actualités',
+            label: 'home.new_list',
             logo: '/static/img/buttons/header/news-white.png'
           },
           content: article ? [article] : null
@@ -102,12 +102,12 @@ export default {
           id: 3,
           name: 'videos',
           show: {
-            sentence: 'Voir la vidéo',
+            sentence: 'see_video',
           },
           logo: '/static/img/buttons/header/play-black.png',
           button: {
             path: '/videos',
-            label: 'Liste des vidéos',
+            label: 'home.video_list',
             logo: '/static/img/buttons/header/play-white.png'
           },
           content: video ? [video] : null

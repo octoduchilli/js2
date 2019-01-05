@@ -40,7 +40,7 @@
         </li>
       </ul>
       <div v-if="!send" class="mail-form column" :class="[__window.width <= 900 ? 'align-center' : null]">
-        <h1 class="margin-20">Nous envoyer un mail</h1>
+        <h1 class="margin-20">{{$t('contact.send')}}</h1>
         <basic-input class="margin-20" :input="mail.firstname.input"/>
         <basic-input class="margin-20" :input="mail.lastname.input"/>
         <basic-input class="margin-20" :input="mail.email.input"/>
@@ -48,7 +48,7 @@
         <basic-textarea class="margin-20" :textarea="mail.main.input" rows="20" cols="30"/>
         <basic-button class="margin-20" :style="{'opacity': __checkInput ? '1' : '.3'}" :button="button"/>
       </div>
-      <h1 v-else class="margin-20 flex justi-center align-center text-center animated fadeInRight">Votre message a bien été envoyé !</h1>
+      <h1 v-else class="margin-20 flex justi-center align-center text-center animated fadeInRight">{{$t('contact.send-success')}}</h1>
     </div>
     <router-link class="link-admin link row align-center" to="/admin">
       <img src="/static/img/buttons/basics/admin-black.png" alt="Admin" class="link-img">
@@ -68,7 +68,8 @@ export default {
         firstname: {
           input: {
             id: 'firstname',
-            label: 'Nom *',
+            label: 'firstname',
+            needed: true,
             text: '',
             type: 'text'
           }
@@ -76,7 +77,8 @@ export default {
         lastname: {
           input: {
             id: 'lastname',
-            label: 'Prénom *',
+            label: 'lastname',
+            needed: true,
             text: '',
             type: 'text'
           }
@@ -84,7 +86,8 @@ export default {
         email: {
           input: {
             id: 'email',
-            label: 'Email *',
+            label: 'email',
+            needed: true,
             text: '',
             type: 'text'
           }
@@ -92,7 +95,8 @@ export default {
         subject: {
           input: {
             id: 'subject',
-            label: 'Sujet *',
+            label: 'subject',
+            needed: true,
             text: '',
             type: 'text'
           }
@@ -100,7 +104,8 @@ export default {
         main: {
           input: {
             id: 'main',
-            label: 'Votre message *',
+            label: 'your_message',
+            needed: true,
             text: ''
           }
         }
@@ -108,7 +113,7 @@ export default {
       button: {
         id: 'validate',
         click: false,
-        label: 'ENVOYER'
+        label: 'send'
       }
     }
   },

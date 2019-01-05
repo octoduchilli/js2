@@ -1,6 +1,6 @@
 <template>
   <div class="basic-input">
-    <p class="label">{{input.label}}</p>
+    <p class="label">{{$t(input.label)}}{{input.needed ? ' *' : ''}}</p>
     <input class="input" :type="input.type" v-model="input.text">
   </div>
 </template>
