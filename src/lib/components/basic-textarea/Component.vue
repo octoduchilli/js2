@@ -1,6 +1,6 @@
 <template>
   <div class="basic-textarea">
-    <p class="label">{{textarea.label}}</p>
+    <p class="label">{{$t(textarea.label)}}{{textarea.needed ? ' *' : ''}}</p>
     <textarea :rows="rows ? rows : 30" :cols="cols ? cols : __window.width >= 600 ? 65 : 30" class="textarea" v-model="textarea.text"></textarea>
   </div>
 </template>

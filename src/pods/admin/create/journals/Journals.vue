@@ -3,15 +3,19 @@
     <h1 class="title-sentence">Journaux</h1>
     <div class="width column align-center" v-if="!created">
       <basic-input class="margin-20" :input="title.input"/>
+      <basic-input class="margin-20" :input="titleEn.input"/>
       <basic-input class="margin-20" v-for="url in images.urls" :key="url.id" :input="url.input"/>
       <basic-button style="width: 250px" class="margin-20" :button="buttons.moreImage"/>
       <p class="margin-20">*Laisser vide pour ne pas sauvegarder l'image (sauf url n°1).</p>
       <basic-input class="margin-20" :input="card.description.input"/>
+      <basic-input class="margin-20" :input="card.descriptionEn.input"/>
       <basic-input class="margin-20" :input="card.miniature.url.input"/>
       <basic-textarea class="margin-20" :textarea="main.input"/>
+      <basic-textarea class="margin-20" :textarea="mainEn.input"/>
       <basic-button style="margin: auto" :button="buttons.create"/>
       <h1 class="title-sentence">Aperçu globale</h1>
-      <p class="text-center">* L'aperçu est visible une fois l'ensemble des champs remplis *</p>
+      <p class="text-center">* L'aperçu est visible une fois l'ensemble des champs remplis (sauf anglais) *</p>
+      <p class="text-center">* S'il n'y a pas de texte en anglais, le texte en français sera pris par défaut *</p>
       <div v-if="__list" class="width column align-center">
         <basic-card-list :list="__list" :noLink="true"/>
         <basic-article style="padding: 70px 0" v-if="__list.content[0]" :article="__list.content[0]"/>
@@ -31,6 +35,13 @@ export default {
       title: {
         input: {
           label: 'Titre',
+          text: '',
+          type: 'text'
+        }
+      },
+      titleEn: {
+        input: {
+          label: 'Titre - Anglais',
           text: '',
           type: 'text'
         }
@@ -55,6 +66,13 @@ export default {
             type: 'text'
           }
         },
+        descriptionEn: {
+          input: {
+            label: 'Descriptif de la card - Anglais',
+            text: '',
+            type: 'text'
+          }
+        },
         miniature: {
           url: {
             input: {
@@ -68,6 +86,12 @@ export default {
       main: {
         input: {
           label: 'Texte principale',
+          text: ''
+        }
+      },
+      mainEn: {
+        input: {
+          label: 'Texte principale - Anglais',
           text: ''
         }
       },
@@ -99,9 +123,12 @@ export default {
     },
     __list () {
       let title = this.title
+      let titleEn = this.titleEn
       let images = this.images
       let card = this.card
+      let descriptionEn = this.card.descriptionEn
       let main = this.main
+      let mainEn = this.mainEn
       let journals = this.__journals
       let ids = []
       let id = null
@@ -136,7 +163,7 @@ export default {
           })
         })
 
-        list.content.push({
+        let item = {
           id: id,
           title: title.input.text,
           images: img,
@@ -148,7 +175,23 @@ export default {
           },
           main: main.input.text,
           createdAt: date.toString()
-        })
+        }
+
+        if (this.$i18n.locale === 'en') {
+          if (titleEn.input.text) {
+            item.title = titleEn.input.text
+          }
+
+          if (descriptionEn.input.text) {
+            item.card.description = descriptionEn.input.text
+          }
+
+          if (mainEn.input.text) {
+            item.main = mainEn.input.text
+          }
+        }
+
+        list.content.push(item)
 
         return list
       }
@@ -182,9 +225,12 @@ export default {
   methods: {
     create () {
       let title = this.title
+      let titleEn = this.titleEn
       let images = this.images
       let card = this.card
+      let descriptionEn = this.card.descriptionEn
       let main = this.main
+      let mainEn = this.mainEn
       let journals = this.__journals
       let ids = []
       let id = null
@@ -213,14 +259,17 @@ export default {
         db.ref(`journals/${id}`).set({
           id: id,
           title: title.input.text,
+          titleEn: titleEn.input.text || null,
           images: img,
           card: {
             description: card.description.input.text,
+            descriptionEn: card.descriptionEn.input.text || null,
             miniature: {
               url: card.miniature.url.input.text
             }
           },
           main: main.input.text,
+          mainEn: main.input.text || null,
           createdAt: date.toString()
         }).then(_ => {
           this.created = true

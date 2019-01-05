@@ -1,7 +1,7 @@
 <template>
   <div class="videos column align-center">
-    <h1 class="title-sentence">Je Science donc Je Filme</h1>
-    <p class="normal-sentence">Parce que regarder une vidéo nous parle souvent plus que lire des articles, nous avons décidé d'ouvrir une chaine youtube où l'on filmera divers projets scientifiques, des interviews, des micro-trottoirs et bien d'autres choses. N'hésitez pas à laisser un pouce bleu à nos vidéos si elles vous plaisent mais également à laisser un petit commentaire.<br><br> L'équipe de JS² vous souhaite un bon visionnage !</p>
+    <h1 class="title-sentence">{{$t('video.title')}}</h1>
+    <p class="normal-sentence" v-html="$t('video.description')"></p>
     <div class="filters" :class="[__window.width <= 900 ? 'column' : 'row']">
       <basic-dropdown class="margin-10" :dropdown="videos.filters.date"/>
       <basic-dropdown class="margin-10" :dropdown="videos.filters.title"/>
@@ -98,6 +98,10 @@ export default {
       let videos = this.videos
 
       videos.content.sort((a, b) => {
+        if (this.$i18n.locale === 'en') {
+          return ('' + a.titleEn).localeCompare(b.titleEn)
+        }
+
         return ('' + a.title).localeCompare(b.title)
       })
     },
@@ -105,6 +109,10 @@ export default {
       let videos = this.videos
 
       videos.content.sort((a, b) => {
+        if (this.$i18n.locale === 'en') {
+          return ('' + b.titleEn).localeCompare(a.titleEn)
+        }
+
         return ('' + b.title).localeCompare(a.title)
       })
     }

@@ -1,0 +1,341 @@
+{
+  "journals" : [ null, null, null, {
+    "card" : {
+      "description" : "Voici notre journal de Mars 2018, le tout premier !",
+      "descriptionEn" : "Here is our very 1th magazine, March issue!",
+      "miniature" : {
+        "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536315582-js-le-journal-couv.jpg"
+      }
+    },
+    "createdAt" : "Fri Sep 07 2018 12:58:15 GMT+0200",
+    "id" : 3,
+    "images" : [ {
+      "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536315582-js-le-journal-couv.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536315822-qui.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536315796-opto.jpg"
+    } ],
+    "main" : "Bonjour à tous !\n<br>\n<br>                                                             \n\nL'équipe JS² a l'honneur de vous présenter son tout premier numéro de journal!\n<br>\n<a href=\"https://cdn.flipsnack.com/widget/v2/widget.html?hash=fvk90tkkb&bgcolor=EEEEEE&t=1536318025\">\nCliquez ici pour voir le journal\n</a>\n<br> \n\nAu programme de la robotique, de la géologie et ses grands cycles géochimiques, de la médecine, de l'épidémiologie et cette grande question \"Qu’est ce qui est objectif dans les méthodes scientifiques ?\". Nous pouvons dire que nous y avons mis de l'énergie et beaucoup d'amour. Ça y est, nous sommes lancés.\n<br>\n\nPour le jeu, n'hésitez pas à aller retrouver le résultat \n<a href=\"https://www.facebook.com/jesciencedoncjesuis/posts/164347594227516\">\nici\n</a> \naprès avoir tenté votre chance.\n<br>\n\nN'hésitez pas à laisser un petit commentaire ci-dessous pour nous faire savoir ce que vous aurez pensé de ce journal, tant positif que négatif !\n<br>\n<br>\n\n<p class=\"anim text-center\"> \nBonne lecture ! \n</p>\n\n<br>\nL'équipe de JS²\n\n\n<style>\n.anim {\n  animation: anim 5s infinite;\n}\n\n@keyframes anim {\n  50% {\n    transform: scale(1.2)\n  }\n}\n</style>",
+    "mainEn" : "Hello everyone!\n<br>\n<br>                                                             \n\nThe JS² team has the honour to present its very first magazine issue!\n<br>\n<a href=\"https://cdn.flipsnack.com/widget/v2/widget.html?hash=fvk90tkkb&bgcolor=EEEEEE&t=1536318025\">\nClick here to see it\n</a>\n<br> \n\nAre in the print robotics, geology and its great geochemical cycles, medicine, epidemiology and this great question \"What is objective in scientific methods?\" We can say that we have put energy and a lot of love into getting this magazine together.\n<br>\n\nFor the game, do not hesitate to go back to the result  \n<a href=\"https://www.facebook.com/jesciencedoncjesuis/posts/164347594227516\">\nhere\n</a> \n after you have tried your luck.\n<br>\n\nFeel free to leave a short comment below to let us know what you think of this newspaper, both positive and negative!\n<br>\n<br>\n\n<p class=\"anim text-center\"> \nHave a good read!\n</p>\n\n<br>\nThe JS² team\n\n\n<style>\n.anim {\n  animation: anim 5s infinite;\n}\n\n@keyframes anim {\n  50% {\n    transform: scale(1.2)\n  }\n}\n</style>",
+    "modifiedAt" : "Sat Jan 05 2019 20:05:04 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "Journal n°0 - Mars 2018",
+    "titleEn" : "Magazine n°0 - March 2018"
+  }, {
+    "card" : {
+      "description" : "Journal du mois d'Avril 2018",
+      "descriptionEn" : "April issue of the magazine",
+      "miniature" : {
+        "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536320093-couverture.jpg"
+      }
+    },
+    "createdAt" : "Fri Sep 07 2018 13:37:38 GMT+0200",
+    "id" : 4,
+    "images" : [ {
+      "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536320093-couverture.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536320093-remerciements.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536320093-ver-marin.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536320093-araignee.jpg"
+    } ],
+    "main" : "Bonjour à tous !\n<br>\n<br>                                                           \n\nL'équipe JS² a l'honneur de vous présenter son deuxième numéro de journal!\n<br>\n<a href=\"https://cdn.flipsnack.com/widget/v2/widget.html?hash=ftk3eunnr&bgcolor=EEEEEE&t=1536320322\">\nCliquez ici pour voir le journal\n</a>\n<br>\n\nAu programme de ce n°1, de la chimie, de la médecine, de la virologie et enfin la chronique du mois qui vous expliquera ce qu'est la modélisation et à quels besoins elle répond. \n<br>\n\nPour le jeu, n'hésitez pas à aller retrouver le résultat\n<a href=\"https://www.facebook.com/jesciencedoncjesuis/posts/171941343468141\">\nici\n</a> \naprès avoir tenté votre chance.\n<br>\n\nN'hésitez pas à laisser un petit commentaire ci-dessous pour nous faire savoir ce que vous aurez pensé de ce journal, tant positif que négatif !\n<br>\n<br>\n\nBonne lecture !\n<br> \nL'équipe de JS²\n\n",
+    "mainEn" : "Hello everyone!\n<br>\n<br>                                                           \n\nThe JS² team has the honour to present its second magazine issue!\n<br>\n<a href=\"https://cdn.flipsnack.com/widget/v2/widget.html?hash=ftk3eunnr&bgcolor=EEEEEE&t=1536320322\">\nClick here to see it\n</a>\n<br>\n\nIn the program of this n°1, chemistry, medicine, virology and finally this month’s headline will explain what modelling is and to what needs it meets.\n<br>\n\nFor the game, do not hesitate to go back to the result\n<a href=\"https://www.facebook.com/jesciencedoncjesuis/posts/171941343468141\">\nhere\n</a> \nafter you have tried your luck.\n<br>\n\nFeel free to leave a short comment below to let us know what you think of this newspaper, both positive and negative!\n<br>\n<br>\n\nHave a good read!\n<br>\nThe JS² team",
+    "modifiedAt" : "Sat Jan 05 2019 20:01:01 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "Journal n°1 - Avril 2018",
+    "titleEn" : "Magazine n°1 - April 2018"
+  }, {
+    "card" : {
+      "description" : "Voici notre 3ème Journal ! En vous souhaitant tous une bonne lecture. ",
+      "descriptionEn" : "Here is our 3th magazine issue.",
+      "miniature" : {
+        "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536321255-couverture.jpg"
+      }
+    },
+    "createdAt" : "Fri Sep 07 2018 14:00:58 GMT+0200",
+    "id" : 5,
+    "images" : [ {
+      "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536321255-couverture.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536321255-remerciements.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536321255-chimie.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/36/5/1536321255-nanomed.jpg"
+    } ],
+    "main" : "Bonjour à tous !\n<br>\n<br>                                                           \n\nL'équipe JS² a vous présente son troisième numéro de journal!\n<br>\n<a href=\"https://cdn.flipsnack.com/widget/v2/widget.html?hash=fc8qrillu&bgcolor=EEEEEE&t=1536321224\">\nCliquez ici pour voir le journal\n</a>\n<br>\n\nAvec une nouvelle rédactrice en chef, vous y trouverez de la recherche biomédicale ainsi que les secrets de la perception olfactive. La chronique du mois discutera du caractère révolutionnaire des nano-médicaments. Il s'agit du dernier de l'année scolaire, mais nous nous retrouverons pour le prochain numéro le 25 Septembre prochain !\n<br>\n\nPour le jeu, n'hésitez pas à aller retrouver le résultat\n<a href=\"https://www.facebook.com/jesciencedoncjesuis/posts/181070332555242\">\nici\n</a> \naprès avoir tenté votre chance. \n<br>\n\nN'hésitez pas à laisser un petit commentaire ci-dessous pour nous faire savoir ce que vous aurez pensé de ce journal, tant positif que négatif !\n<br>\n<br>\n\nBonne lecture et bonnes vacances !\n<br> \nL'équipe de JS²\n\n",
+    "mainEn" : "Hello everyone!\n<br>\n<br>                                                           \n\nThe JS² team presents its third issue!\n<br>\n<a href=\"https://cdn.flipsnack.com/widget/v2/widget.html?hash=fc8qrillu&bgcolor=EEEEEE&t=1536321224\">\nClick here to see it.\n</a>\n<br>\n\nWith the new editor in chief, you will find in this month biomedical research as well as the secrets of olfactory perception. This month’s headline will discuss the revolutionary nature of nano-drugs. This is the last edition of the school year, but we will meet for the next issue on September 25!\n<br>\n\nFor the game, do not hesitate to go back to the result\n<a href=\"https://www.facebook.com/jesciencedoncjesuis/posts/181070332555242\">\nhere\n</a> \nafter you have tried your luck.\n<br>\n\nFeel free to leave a short comment below to let us know what you think, both positive and negative!\n<br>\n<br>\n\nGood reading and good holidays!\n<br>\nThe JS² team",
+    "modifiedAt" : "Sat Jan 05 2019 19:58:34 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "Journal n°2 - Mai 2018",
+    "titleEn" : "Magazine n°2 - Mai 2018"
+  }, {
+    "card" : {
+      "description" : "Voici notre 4ème Journal ! En vous souhaitant tous une bonne lecture. ",
+      "descriptionEn" : "Here is our 4th magazine issue. Hope you enjoy the reading!",
+      "miniature" : {
+        "url" : "http://image.noelshack.com/fichiers/2018/40/4/1538666199-capture.jpg"
+      }
+    },
+    "createdAt" : "Thu Oct 04 2018 17:19:24 GMT+0200",
+    "id" : 6,
+    "images" : [ {
+      "url" : "http://image.noelshack.com/fichiers/2018/40/4/1538666199-capture.jpg"
+    }, {
+      "url" : "http://image.noelshack.com/fichiers/2018/40/4/1538666199-hh.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/40/4/1538666199-ii.jpg"
+    } ],
+    "main" : "Bonjour à tous !\n<br>\n<br>                                                           \n\nL'équipe JS² a vous présente son quatrième numéro de journal, premier de cette année scolaire 2018-2019 !\n<br> \n<a href=\"https://fr.calameo.com/read/005591144ac59fb880491\">\nCliquez ici pour voir le journal\n</a>\n<br>\n\nVous y trouverez de toutes nouvelles disciplines abordées telles que la Santé Publique, la Nutrition et la physique et la médecine. Une nouvelle rubrique sur le comportement animal s'est également ajoutée !\n<br>\nLa chronique du mois discutera de l'expansion des greffes d'organes artificielles et ses conséquences.\n<br>\n<br>\n\nPour le jeu, n'hésitez pas à aller retrouver le résultat\n <a href=\"https://www.facebook.com/jesciencedoncjesuis/posts/252624248733183\">ici</a> \naprès avoir tenté votre chance.\n<br>\n\nN'hésitez pas à laisser un petit commentaire ci-dessous pour nous faire savoir ce que vous aurez pensé de ce journal, tant positif que négatif !\n<br>\n<br>\n\nBonne lecture !\n<br> \nL'équipe de JS²\n\n",
+    "mainEn" : "Bonjour à tous !\n<br>\n<br>                                                           \n\nThe JS² team presents its fourth issue of the magazine, the first of this 2018-2019 school year!\n<br>\n<a href=\"https://fr.calameo.com/read/005591144ac59fb880491\">\nClick here to see the magazine\n</a>\n<br>\n\nHere you will find all new disciplines to read about such as Public Health, Nutrition and physics and medicine. A new column has also been added on animal behaviour!\n<br>\nThis month’s headline will discuss the expansion of artificial organ transplants and its consequences.\n<br>\n<br>\n\nFor the game, do not hesitate to go back to the result \n<a href=\"https://www.facebook.com/jesciencedoncjesuis/posts/252624248733183\">\nici\n</a>\nafter you have tried your luck.\n<br>\n\nFeel free to leave a short comment below to let us know what you think, both positive and negative!\n<br>\n<br>\n\nHappy reading!\n<br> \nThe JS² team",
+    "modifiedAt" : "Sat Jan 05 2019 19:44:57 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "Journal n°3 - Septembre 2018",
+    "titleEn" : "Magazine n°3 - September 2018"
+  }, {
+    "card" : {
+      "description" : "Voici notre 5ème numéro de journal ! En vous souhaitant une bonne lecture.",
+      "descriptionEn" : "Here is our 5th magazine issue. Hope you enjoy the reading!",
+      "miniature" : {
+        "url" : "https://image.noelshack.com/fichiers/2018/43/7/1540749058-couverture-min.jpg"
+      }
+    },
+    "createdAt" : "Sun Oct 28 2018 19:19:17 GMT+0100 (heure normale d’Europe centrale)",
+    "id" : 7,
+    "images" : [ {
+      "url" : "https://image.noelshack.com/fichiers/2018/43/7/1540749058-couverture-min.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/43/7/1540749058-horloge-biologique-min.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/43/7/1540749058-image-avortement-min.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/43/7/1540749058-schema-coeur-min.jpg"
+    } ],
+    "main" : "Bonjour à tous !\n<br>\n<br>                                                           \n\nL'équipe JS² a vous présente son cinquième numéro de journal !\n<br>\n<a href=\"https://fr.calameo.com/read/005591144ba5074700726\">\nCliquez ici pour voir le journal</a>\n<br>\n\nCe mois-ci, la chronique du journal s'intitule\n<strong><span style=\"text-decoration: underline;\">\n\"IVG: Clause de conscience ou délit d'entrave ?\"\n</span></strong>\n<br>\n<br>\nVous y trouverez également des articles de vulgarisation scientifique comme d'habitude, notamment en \n<span style=\"text-decoration: underline;\">\nphysique et médecine\n</span> \net en \n<span style=\"text-decoration: underline;\">\nneurobiologie.\n</span>\nNotre rubrique \"que répondre à\" répond ce mois-ci à des anti-vaccins. La \"question con\" abordera la \n<span style=\"text-decoration: underline;\">\nnotion de sursaut\n</span> \nsuite à la surprise et/ou à la peur, tandis que la question tabou expliquera ce qu'est une \n<span style=\"text-decoration: underline;\">\npanne sexuelle!\n</span>\n \n<br> \n\nN'hésitez pas à laisser un petit commentaire ci-dessous pour nous faire savoir ce que vous aurez pensé de ce journal, tant positif que négatif !\n<br>\n<br>\n\nPour le jeu, n'hésitez pas à aller retrouver le résultat \n<a href=\"https://www.facebook.com/jesciencedoncjesuis/posts/262497821079159\">\nici\n</a> \naprès avoir tenté votre chance. \n<br>\n<br>\n\nBonne lecture ! \n<br> \nL'équipe de JS²\n\n",
+    "mainEn" : "Hello everyone! \n<br>\n<br>                                                           \n\nThe JS2 team presents you its’ 5th magazine issue \n<br> \n<a href=\"https://fr.calameo.com/read/005591144ba5074700726\"> \nClick here to see the magazine \n</a> \n<br>\n\nThis month, the magazine’s headline is \n<strong><span style=\"text-decoration: underline;\">\n\"Abortion: Clause of conscience or obstruction?\"\n</span></strong>\n<br> \n<br>\nYou will also find scientific articles as usual, particularly in <span style=\"text-decoration: underline;\">\n physics, medicine \n</span>\n and \n<span style=\"text-decoration: underline;\">\nneurobiology\n</span>.\n Our \"what to answer\" section will handle the questions of anti-vaccines advocates. The \"dumb question\" will address the \n<span style=\"text-decoration: underline;\">\nnotion of startling\n</span>\n with surprise and/or fear, while “the taboo question” will explain what \n<span style=\"text-decoration: underline;\">\nimpotence\n</span> \nis!\n \n<br> \n\nFeel free to leave a short comment below to let us know what you think, both positive and negative!\n<br>\n<br>\n\nFor the game, do not hesitate to go back to the result \n<a href=\"https://www.facebook.com/jesciencedoncjesuis/posts/262497821079159\">here</a> \nafter you have tried your luck. \n<br>\n<br>\n\nHave a good read!\n<br> \nThe JS² teams",
+    "modifiedAt" : "Sat Jan 05 2019 19:48:26 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "Journal n°4 - Octobre 2018",
+    "titleEn" : "Magazine n°4 - October 2018"
+  }, {
+    "card" : {
+      "description" : "Voici notre 6ème numéro de journal ! En vous souhaitant une bonne lecture :)",
+      "descriptionEn" : "Here is our 6th magazine issue. Hope you enjoy the reading!",
+      "miniature" : {
+        "url" : "https://image.noelshack.com/fichiers/2018/48/2/1543317133-journal-n-5-novembre-couverture-min.jpg"
+      }
+    },
+    "createdAt" : "Tue Nov 27 2018 12:20:16 GMT+0100 (heure normale d’Europe centrale)",
+    "id" : 8,
+    "images" : [ {
+      "url" : "https://image.noelshack.com/fichiers/2018/48/2/1543317133-journal-n-5-novembre-couverture-min.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/48/2/1543317133-musaraigne-min.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/48/2/1543317133-suicide-animal-min.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/48/2/1543317133-question-con-min.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/48/2/1543317133-questiontabou-min.jpg"
+    } ],
+    "main" : "Bonjour à tous !\n<br>\n<br>                                                           \n\nL'équipe JS² a vous présente son cinquième numéro de journal ! \n<br> \n<a href=\"https://www.calameo.com/read/0055911444985cc63029b\">\nCliquez ici pour voir le journal\n</a>\n<br>\n\nCe mois-ci, la chronique du journal s'intitule\n<strong><span style=\"text-decoration: underline;\">\n\"VIH contre les négationnistes\"\n</span></strong>\n<br>\n<br>\nVous y trouverez également des articles de vulgarisation scientifique comme d'habitude, notamment en \n<span style=\"text-decoration: underline;\">\nneurobiologie\n</span> \net en \n<span style=\"text-decoration: underline;\">\nsanté publique\n</span>. \nCe mois-ci, la rubrique animale parlera d'un sujet qui porte à débat: le suicide animal, et son existence ou non. La \"question con\" abordera la \n<span style=\"text-decoration: underline;\">\nla raison des sensations de sursaut\n</span> quand on s'endort, tandis que la question tabou parlera de <span style=\"text-decoration: underline;\">\nl'asexualité !\n</span>\n \n<br> \n\nN'hésitez pas à laisser un petit commentaire ci-dessous pour nous faire savoir ce que vous aurez pensé de ce journal, tant positif que négatif ! \n<br>\n<br>\n\n\nBonne lecture !\n<br> \nL'équipe de JS²\n\n",
+    "mainEn" : "Hello everyone!\n<br>\n<br>                                                           \n\nThe JS2 presents you its’ 5th magazine edition!\n<br> \n<a href=\"https://www.calameo.com/read/0055911444985cc63029b\">\nClick here to see the magazine\n</a>\n<br>\n\nThis month, the edition headline is \n<strong><span style=\"text-decoration: underline;\">\n\"HIV against deniers\"\n</span></strong>\n<br>\n<br>\nYou can also find also find other science articles as usual, such as <span style=\"text-decoration: underline;\">\n neurobiology  \n</span>\n and \n<span style=\"text-decoration: underline;\">\n public health\n</span>.\n This month, the animal column will tackle a controversial subject: animal suicide and its existence or not. The ‘dumb question’ will be about the \n<span style=\"text-decoration: underline;\">\n reason for feeling startled \n</span>\n when we fall asleep, and the ‘taboo question’ will go into <span style=\"text-decoration: underline;\">\nasexuality!\n</span>\n \n<br> \n\nDon’t hesitate to leave a comment below to tell us what you thought, whether positive or negative!\n<br>\n<br>\n\n\nHappy reading!\n<br> \nThe JS2 team\n\n",
+    "modifiedAt" : "Sat Jan 05 2019 19:51:06 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "Journal n°5 - Novembre 2018",
+    "titleEn" : "Magazine n°5 - November 2018"
+  } ],
+  "news" : [ {
+    "card" : {
+      "description" : "Nous vous présentons notre assemblée générale 2018, marquant le début de l'année 2018-2019 !",
+      "descriptionEn" : "Here is our general assembly 2018, to mark the beginning of the 2018-2019 school year!",
+      "miniature" : {
+        "url" : "http://image.noelshack.com/fichiers/2018/38/3/1537351306-img-4975.jpg"
+      }
+    },
+    "createdAt" : "Wed Sep 19 2018 12:39:37 GMT+0200",
+    "id" : 0,
+    "images" : [ {
+      "url" : "http://image.noelshack.com/fichiers/2018/38/3/1537351306-img-4975.jpg"
+    }, {
+      "url" : "http://image.noelshack.com/fichiers/2018/38/3/1537351306-img-4948.jpg"
+    }, {
+      "url" : "http://image.noelshack.com/fichiers/2018/38/3/1537353814-img-4968.jpg"
+    }, {
+      "url" : "http://image.noelshack.com/fichiers/2018/38/3/1537353814-img-4960.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/38/3/1537353815-img-4955.jpg"
+    }, {
+      "url" : "http://image.noelshack.com/fichiers/2018/38/3/1537353837-img-4959.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/38/3/1537353815-img-4957.jpg"
+    }, {
+      "url" : "https://image.noelshack.com/fichiers/2018/38/3/1537353815-img-4952.jpg"
+    } ],
+    "main" : "Bonjour à tous,\n<br>\n<br>\n\nPour ce premier article de blog de notre site, nous allons parler de l’assemblée générale de notre association qui s’est déroulée dans une salle à  Saint-Germain-des-Prés, le 15 septembre 2018.<br><br> \nL’ordre du jour était :\n<br>\nI) &nbsp; &nbsp; Bilan moral\n<br>\nII) &nbsp; &nbsp; Bilan des activités\n<br>\nIII) &nbsp; &nbsp; Bilan financier\n<br>\nIV) &nbsp; &nbsp; Démission de l’ancien bureau\n<br> \nV) &nbsp; &nbsp; Présentation et vote du nouveau bureau\n<br>\nVI) &nbsp; &nbsp; Questions diverses\n<br>\n<br>\nVoici quelques photos de l’évènement prises par deux photographes, Djalil et Amar.\n<br>\nDes vidéos de présentation des membres du bureau vont progressivement être publiées, alors suivez-nous ;-)\n<br>\n<br>\n\nLa nouvelle équipe de JS² a hâte de vous présenter ses projets tout au long de cette année, mais en attendant nous vous souhaitons à tous une très bonne rentrée scolaire ou professionnelle !\n<br>\nA bientôt !\n",
+    "mainEn" : "Hello everyone,\n<br>\n<br>\n\nFor this first blog post of our site, we will talk about the general assembly of our association that took place in a Saint-Germain-des-Prés auditorium, on September 15, 2018.\n<br>\nOn the agenda was:\n<br>\nI) &nbsp; &nbsp; A morale review\n<br>\nII) &nbsp; &nbsp; Activity review\n<br>\nIII) &nbsp; &nbsp; Balance sheet\n<br>\nIV) &nbsp; &nbsp; Former bureau resignation\n<br> \nV) &nbsp; &nbsp; Introduction and vote of the new bureau\n<br>\nVI) &nbsp; &nbsp; Other questions\n<br>\n<br>\n\nHere are a few pictures of the event taken by two photographs, Djalil and Amar.\n<br>\nIntroduction videos of the bureau members will be progressively published, so look forward to it ;-)\n<br>\n<br>\n\nThe new JS² team is eager to present its projects all year long, but for now we wish you a good start of the school or professional year!\n<br>\nSee you soon!",
+    "modifiedAt" : "Sat Jan 05 2019 20:14:35 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "Assemblée Générale 2018",
+    "titleEn" : "General Assembly 2018"
+  }, {
+    "card" : {
+      "description" : "C'est l'anniversaire de JS², voici où nous en sommes.",
+      "descriptionEn" : "It is the JS² anniversary, so here is where we are.",
+      "miniature" : {
+        "url" : "https://image.noelshack.com/fichiers/2018/51/1/1545040575-cake-25388-960-720.png"
+      }
+    },
+    "createdAt" : "Mon Dec 17 2018 11:07:00 GMT+0100 (heure normale d’Europe centrale)",
+    "id" : 1,
+    "images" : [ {
+      "url" : "https://image.noelshack.com/fichiers/2018/51/1/1545040575-cake-25388-960-720.png"
+    } ],
+    "main" : "Je Science Donc Je Suis a 1 an aujourd’hui !!\n<br>\n<br>\n\nIl y a exactement un an\n<span style=\"text-decoration: underline;\">\nnous étions 6\n</span> \nà signer la création de cette association avec une seule chose en tête : l’envie d’apprendre et de partager nos connaissances. Nous ne savions pas où cela nous mènerait à part que nous en sortirions grandis. Nous voilà, un an après, grandis. \n<br>\n<br>\n\nUn an pour JS2 ça a été\n<strong>6 numéros de journal sortis, 8 vidéos publiées, des batailles administratives et beaucoup de belles rencontres\n</strong>\n autour des 5 stands que nous avons pu organiser, mais également lors d'évènements. Nous avons eu l'occasion de connaître \n<strong>\nAnimafac, iGEM, Octopus, et plusieurs autres associations\n</strong> \navec lesquelles il y a eu et/ou il y aura des collaborations cette année. Nous vous préparons un tas de nouvelles choses pour cette année à venir, alors restez connectés sur nos réseaux sociaux pour suivre la cadence ! \n<br> \n<br>\nUn \n<strong>\nENORME merci\n</strong> \nà vous qui nous suivez et qui donnez un sens à ce que nous faisons. Nous espérons que nous allons continuer à vous apportez des idées, des anecdotes, des connaissances, à vous faire rencontrer des domaines nouveau. Nous espérons que nous allons continuer à vous surprendre l’année prochaine et que nous reviendrons avec du contenu de toujours meilleure qualité.\nSurtout, nous espérons que votre curiosité ne saura pas se satisfaire et que vous irez sans cesse vous informer par ce qui a du sens.\n<br>\n<br>\n\nIl est vrai que nous vivons entourés de nouvelles informations, de savoirs de toutes sortes  et d’anecdotes futiles reliées via internet et les réseaux sociaux. Mais nous ne baissons pas les bras pour autant car dans ce monde où les vues rapportent de l’argent, où nos clics et nos informations font gagner aux autres, nous nous engageons à proposer des alternatives sans recourir ni à la monétisation de nos créations ni à l’information rapide sans fond. C’est un défi que j’espère nous continuerons à relever, avec plein d’autres qui le font si bien, pour le plus longtemps possible.\n<br>\n<br>\n\nSofia Rigou et toute l’équipe de JS²",
+    "mainEn" : "I science so I am is a year old today!!\n<br>\n<br>\n\nExactly one year ago,\n<span style=\"text-decoration: underline;\">\n6 of us\n</span> \nsigned the creation of this association with one thing in mind: the desire to learn and share our knowledge. We did not know where it would take us except that we would grow from it. Here we are, a year later, grown up.\n<br>\n<br>\n\nA year in JS2 has been\n<strong>\n6 magazine issues out, 8 videos, administrative battles and a lot of wonderful meetings\n</strong>\n around the 5 stands that we have organised, but also during events. We have had the opportunity to know \n<strong>\nAnimafac, iGEM, Octopus, and several other associations\n</strong> \nwith which there have been and/or will be collaborations this year. We are preparing a lot of new things this coming year, so stay connected to our social networks to keep up with the pace! \n<br> \n<br>\nUn \n<strong>\nA HUGE thanks\n</strong> \nto all our followers who give meaning to what we do. We hope that we will continue to bring you ideas, anecdotes, knowledge, and help you discover new scientific fields. We hope that we will continue to surprise you next year and that we will come back with even better content. Above all, we hope that your curiosity will not be satisfied and you will keep looking for what makes sense.\n<br>\n<br>\n\nIt is true that we live surrounded with information, knowledge of all sorts and useless anecdotes through the web and social media. But we do not give up, because in this world where views earn money, where our clicks and information make others win more, we are committed to proposing alternatives without resorting to either the monetization of our creations or to rapid, bottomless information.\n<br>\n<br>\n\nSofia Rigou and all the JS² team",
+    "modifiedAt" : "Sat Jan 05 2019 20:10:24 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "JS² a 1 an !",
+    "titleEn" : "JS² is a year old!"
+  } ],
+  "videos" : [ {
+    "card" : {
+      "description" : "Notre première vidéo sur youtube, qui présente notre association et ses projets !",
+      "descriptionEn" : "Our first video on YouTube, to introduce our association and its projects! ",
+      "miniature" : {
+        "url" : "http://image.noelshack.com/fichiers/2018/39/4/1538055736-miniature-ytb.jpg"
+      }
+    },
+    "createdAt" : "Thu Sep 27 2018 15:47:17 GMT+0200",
+    "id" : 0,
+    "main" : "Bonjour à tous !\n<br>\n<br>\n\nVoici le bouton ON de démarrage de notre chaîne youtube : la vidéo de présentation, avec les 2 co-fondatrices de Je Science donc Je Suis. Sophia, la Présidente, et Sofia, la membre associée.\n<br>\nNous vous souhaitons un bon visionnage, et surtout, restez jusqu'à la fin, nous nous sommes éclatés en tout cas. D'autres vidéos présentant chacun des membres de l'association vont arriver.\n<br>\nN'hésitez pas à nous laisser un petit commentaire et un pouce bleu pour nous encourager!\n<br>\nA bientôt pour la suite !\n\n",
+    "mainEn" : "Hello everyone!\n<br>\n<br>\n\nHere is the START button to our YouTube channel: the introduction video, with the two co-founders of I Science so I am. Sophia, the president, and Sofia, the associate.\n<br>\nWe hope you enjoy it, and please watch till the end, we had fun with it. There will be other videos coming up soon with each of the team members. \n<br>\nDon’t hesitate to leave us a comment or cheer us on with a little blue thumb!\n<br>\nStay tuned for more!",
+    "modifiedAt" : "Sat Jan 05 2019 20:29:23 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "Présentation de notre association",
+    "titleEn" : "Presentation of our association",
+    "video" : {
+      "url" : "https://www.youtube.com/embed/L2QqrQF2EPs"
+    }
+  }, {
+    "card" : {
+      "description" : "La deuxième vidéo de notre chaîne vous permettra d'en apprendre plus sur les principaux membres de l'association.",
+      "descriptionEn" : "This second video will help you learn more about the main team members of our association.",
+      "miniature" : {
+        "url" : "https://image.noelshack.com/fichiers/2018/45/4/1541668304-membres-de-lequipe-min.jpg"
+      }
+    },
+    "createdAt" : "Thu Nov 08 2018 10:17:21 GMT+0100 (heure normale d’Europe centrale)",
+    "id" : 1,
+    "main" : "Bonjour à tous !\n<br>\n<br>\n\nVoici une vidéo qui vous permettra de mieux connaître:\n<br>\n- Sophia Richard, Présidente de l'association\n<br>\n- Sofia Rigou, Membre associée\n<br>\n- Hassiba Gourou, Trésorière\n<br>\n- Hafsa Salka, Co-directrice Communication\n<br>\n- Fabienne Deou, Co-Directrice Communication\n<br>\n- Oscar Nodé-Langlois, Illustrateur\n<br>\n<br>\n\nN'hésitez pas à mettre un pouce bleu et à nous laisser un commentaire pour nous encourager, ou si vous avez des questions !\n<br>\nEn espérant que cette vidéo vous aura plu, on vous dit à bientôt pour une prochaine vidéo à contenu scientifique !\n<br>",
+    "mainEn" : "Hello everyone!\n<br>\n<br>\n\nHere is a video to introduce our team members:\n<br>\n- Sophia Richard, president of our association\n<br>\n- Sofia Rigou, associate\n<br>\n- Hassiba Gourou, treasury\n<br>\n- Hafsa Salka, Communication Co-director\n<br>\n- Fabienne Deou, Communication Co-director\n<br>\n- Oscar Nodé-Langlois, Illustrator \n<br>\n<br>\n\nDon’t hesitate to leave us a comment, a question or cheer us on with a little blue thumb!\n<br>\nWe hope you liked the video, see you soon for a video on popular science!\n<br>",
+    "modifiedAt" : "Sat Jan 05 2019 20:28:13 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "Mieux nous connaître",
+    "titleEn" : "Get to know us better",
+    "video" : {
+      "url" : "https://www.youtube.com/embed/Cvr-lqI25dQ"
+    }
+  }, {
+    "card" : {
+      "description" : "Voici un petit film de promotion de l'équipe iGEM de Sorbonne Université de 2018, qui a gagné la médaille de bronze cette année à Boston !",
+      "descriptionEn" : "Here is a short promotion film from the iGEM team of Sorbonne University 2018, which won the bronze medal this year in Boston!",
+      "miniature" : {
+        "url" : "https://image.noelshack.com/fichiers/2018/46/1/1542023083-41244179-326080514830210-7517180735032131584-o.png"
+      }
+    },
+    "createdAt" : "Mon Nov 12 2018 12:49:46 GMT+0100 (heure normale d’Europe centrale)",
+    "id" : 2,
+    "main" : "Salut à tous ! 🧐\n<br>\n<br>\n\nVoici notre première vidéo scientifique, et à travers cette vidéo nous vous présentons l'équipe iGEM de Sorbonne Université, qui est partie à Boston en octobre et a obtenu la médaille de bronze pour son projet. 🥉\n<br>\n<br> \nMais qu'est-ce que iGEM ? {International Genetically Engineered Machine}\n<br> \nIl s'agit d'une fondation dédiée aux avancées en biologie synthétique <a href=\"http://igem.org/Main_Page\">\n(En savoir plus)\n</a>. \nChaque année, des équipes iGEM du monde entier se retrouvent pour une compétition entre les différents projets proposés par les étudiants de ces équipes. \n<br>\nNous espérons pouvoir suivre de plus près les prochaines équipes, mais pour celle-ci nous vous avons simplement concocté une vidéo résumée de leur projet.\n<br> \nN'hésitez pas à mettre un pouce bleu si le sujet vous a intéressé, et à nous laisser un commentaire pour nous encourager! Merci à tous 🙏 ❤️",
+    "mainEn" : "Hello everyone! 🧐\n<br>\n<br>\n\nHere is our first scientific video, in which we introduce the iGEM team from Sorbonne University, who went to Boston in October and won the bronze medal for its project. 🥉\n<br>\n<br> \nBut what is iGEM? {International Genetically Engineered Machine}\n<br> \nIt is a foundation dedicated to advances in synthetic biology <a href=\"http://igem.org/Main_Page\">\n(Here is more)\n</a>. \nEvery year, iGEM teams from around the world meet for a competition between the different projects proposed by the students’ teams.\n<br>\nWe hope to be able to follow the next teams more closely, but for this one we simply made a summary video of their project.\n<br> \nDon’t hesitate to leave us a comment, a question or cheer us on with a little blue thumb! Thank you 🙏 ❤️",
+    "modifiedAt" : "Sat Jan 05 2019 20:26:20 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "Sorbonne University iGEM team 2018",
+    "titleEn" : "Sorbonne University iGEM team 2018",
+    "video" : {
+      "url" : "https://www.youtube.com/embed/RHjqaxum2TM"
+    }
+  }, {
+    "card" : {
+      "description" : "Premier épisode de la série de vidéos sur la fête des Sciences 2018 organisée par le CRI le 7 Octobre.",
+      "descriptionEn" : "First episode of this series on the 2018 Science fair organised by the CRI on October 7th.",
+      "miniature" : {
+        "url" : "https://image.noelshack.com/fichiers/2018/46/1/1542023726-fete-sciences-min.jpg"
+      }
+    },
+    "createdAt" : "Mon Nov 12 2018 12:58:00 GMT+0100 (heure normale d’Europe centrale)",
+    "id" : 3,
+    "main" : "Salut à tous 🔍\n<br>\n<br>\n\nAujourd'hui JS² revient avec le premier épisode de la série de vlogs sur la Fête des Sciences 2018 organisée par le CRI (centre de recherche interdisciplinaire: http://cri-paris.org/) 🧐🔬 \n<br>\nLes neurosciences en peluche présente un stand assuré par Alicia Lefebvre qui a pour but d'apprendre les neurosciences aux plus petits à l'aide de Peluches. Ainsi, Anouk et Pauline, deux participantes de cette journée, ont accepté de jouer le jeu devant la caméra. \n<br>\n<br>\n\nN'hésitez pas à mettre un pouce bleu si le sujet vous a intéressé, et à nous laisser un commentaire pour nous encourager! Merci à tous 🙏 ❤️ ",
+    "mainEn" : "Hello everyone 🔍\n<br>\n<br>\n\nToday JS² come back with the first episode of our vlog on the 2018 Science Fair organised by the CRI (Interdisciplinary Research Centre: http://cri-paris.org/) 🧐🔬 \n<br>\nNeurosciences with teddy bears presents a stand by Alicia Lefebvre which aims to teach neurosciences to kids using teddy bears. Anouk and Pauline, two participants of this day, agreed to play the game in front of the camera.\n<br>\n<br>\n\nDon’t hesitate to leave us a comment, a question or cheer us on with a little blue thumb! Thank you 🙏 ❤️ ",
+    "modifiedAt" : "Sat Jan 05 2019 20:24:18 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "FDS 2018 - Episode 1: La neuroscience en peluches",
+    "titleEn" : "FDS 2018 - Episode 1: Neurosciences with teddy bears",
+    "video" : {
+      "url" : "https://www.youtube.com/embed/VuTehMNMckQ"
+    }
+  }, {
+    "card" : {
+      "description" : "2ème épisode de la série de vidéos sur la Fête des Sciences 2018",
+      "descriptionEn" : "Second episode of our vlog on the 2018 Science Fair",
+      "miniature" : {
+        "url" : "https://image.noelshack.com/fichiers/2018/46/1/1542024149-medit-min.jpg"
+      }
+    },
+    "createdAt" : "Mon Nov 12 2018 13:03:26 GMT+0100 (heure normale d’Europe centrale)",
+    "id" : 4,
+    "main" : "Salut à tous 🔍\n<br>\n<br>\n\nVoici le 2ème épisode de la série sur la Fête des Sciences. Aujourd'hui, nous vous parlons méditation, en vous présentant Cloé Brami et son stand de méditation en pleine conscience ! \n<br>\nN'hésitez pas à mettre un pouce bleu si le sujet vous a intéressé, et à nous laisser un commentaire pour nous encourager! Merci à tous 🙏 ❤️ ",
+    "mainEn" : "Hello everyone! 🔍\n<br>\n<br>\n\nHere is the second episode on the Science Fair series. Today we will talk about meditation with Cloé Brami and her mindfulness!  \n<br>\nDon’t hesitate to leave us a comment, a question or cheer us on with a little blue thumb! Thank you 🙏 ❤️ ",
+    "modifiedAt" : "Sat Jan 05 2019 20:22:14 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "FDS 2018 - Episode 2: La méditation en pleine conscience",
+    "titleEn" : "FDS 2018 - Episode 2: Mindfulness meditation",
+    "video" : {
+      "url" : "https://www.youtube.com/embed/hEnG_X5VPOk"
+    }
+  }, {
+    "card" : {
+      "description" : "3ème épisode de la série de vidéos sur la Fête des Sciences !",
+      "descriptionEn" : "Third episode on the Science Fair!",
+      "miniature" : {
+        "url" : "https://image.noelshack.com/fichiers/2018/46/1/1542058337-cuisin-min.jpg"
+      }
+    },
+    "createdAt" : "Mon Nov 12 2018 22:34:45 GMT+0100 (heure normale d’Europe centrale)",
+    "id" : 5,
+    "main" : "Salut à tous ! 💕\n<br>\n<br>\n\nL'équipe de JS² espère que vous passez un bon début de semaine. Voici le 3ème épisode de notre série de vidéos sur la fête des Sciences 2018 🔍\n<br>\nAujourd'hui, nous vous présentons le stand de cuisine moléculaire tenu par Tonino Rizzo, un membre du CRI (Centre de Recherche Interdisciplinaire), en collaboration avec les Savanturiers. 🙏 \n<br>\nMais qu'est-ce que la cuisine moléculaire ? Il s'agit d'une discipline scientifique qui se veut comprendre et reproduire les différents mécanismes survenant lors des transformations culinaires quand on cuisine ! 🍲🥞🎂 🍻🥣\n<br>\n<br>\n\nN'hésitez pas à mettre un pouce bleu si le sujet vous a intéressé, et à nous laisser un commentaire pour nous encourager! Merci à tous 🙏 ❤️ ",
+    "mainEn" : "Hello everyone! 💕\n<br>\n<br>\n\nThe JS² team hopes you had a good week. Here is the 3rd episode of our 2018 Science Fair video series 🔍\n<br>\nToday we present the molecular gastronomy stand run by Tonino Rizzo, a member of the CRI (Interdisciplinary Research Centre), in collaboration with the Savanturers. 🙏\n<br>\nBut what is molecular gastronomy? It is a scientific discipline that wants to understand and reproduce the different mechanisms that occur during culinary transformations when cooking! 🍲🥞🎂 🍻🥣\n<br>\n<br>\n\nDon’t hesitate to leave us a comment, a question or cheer us on with a little blue thumb! Thank you 🙏 ❤️ ",
+    "modifiedAt" : "Sat Jan 05 2019 20:21:09 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "FDS 2018 - Episode 3: La cuisine moléculaire",
+    "titleEn" : "FDS 2018 - Episode 3: Molecular gastronomy",
+    "video" : {
+      "url" : "https://www.youtube.com/embed/sRseeTyeSjE"
+    }
+  }, {
+    "card" : {
+      "description" : "Voici une vidéo spontanée par des étudiants de biologie marine à Roscoff, dont notre membre associée Sofia !",
+      "descriptionEn" : "Here is a spontaneous video of marine biology students in Roscoff, which our Sofia studies!",
+      "miniature" : {
+        "url" : "https://image.noelshack.com/fichiers/2018/49/2/1543939067-image-miniature-min.jpg"
+      }
+    },
+    "createdAt" : "Tue Dec 04 2018 17:02:49 GMT+0100 (heure normale d’Europe centrale)",
+    "id" : 6,
+    "main" : "Salut à tous !\n<br>\n<br>\n\nVoici une production scientifique spontanée. C’est un petit vlog que JS² vous propose aujourd’hui.\n<br>\nDes étudiants de la station biologique de Roscoff se sont lancés dans une expérience scientifique, un soir, sans raison particulière. Si vous avez des meilleures idées d’expérience pour répondre à la question n’hésitez pas à les mettre en commentaire.\n<br>\nCe sera avec plaisir que nous testerons vos propositions les plus folles !\n<br>\n<br>\n\nBon visionnage à vous tous, nous attendons vos retours avec impatience !\n",
+    "mainEn" : "Hello everyone!\n<br>\n<br>\n\nHere is a spontaneous science production. This little vlog is on the JS² menu today.\n<br>\n Students from the Roscoff biological station embarked on a scientific experiment one evening for no particular reason. If you have better experience ideas to answer the question, please feel free to comment.\n<br>\nWe will test your craziest ideas with pleasure!\n<br>\n<br>\n\nEnjoy viewing and we look forward to your feedback!\n",
+    "modifiedAt" : "Sat Jan 05 2019 20:19:18 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "Vlog Incongru #1",
+    "titleEn" : "Incongruous Vlog #1",
+    "video" : {
+      "url" : "https://www.youtube.com/embed/eSxXwcRvfug"
+    }
+  }, {
+    "card" : {
+      "description" : "Ouverture d'une nouvelle série de vidéos de vulgarisation scientifique !",
+      "descriptionEn" : "Opening of a new channel on popular science!",
+      "miniature" : {
+        "url" : "https://image.noelshack.com/fichiers/2018/50/1/1544429943-sofia-min.jpg"
+      }
+    },
+    "createdAt" : "Mon Dec 10 2018 09:29:29 GMT+0100 (heure normale d’Europe centrale)",
+    "id" : 7,
+    "main" : "Salut à tous !\n<br>\n<br> \n\nL’association JS² se lance dans une nouvelle série de vidéos et cette vidéo vous la présente ! L’idée est qu'une personne intéréssée présente un concept, une notion ou même une formule qui lui tient à coeur et qui soit suffisamment fondamentale dans son domaine. Cette présentation durera entre 3 et 10 minutes et sera entrecoupée par des questions débiles pour rendre ce concept scientifique accessible à tous.\n<br>\n\nEn bref Y VOIR PLUS CLAIR c’est quoi ? C’est un microtrottoire éventuellement - l'intervention co-écrite par le volontaire avec JS² - un résumé bref par JS² - et enfin une courte présentation du domaine de recherche de l'invité \n<br>\n\nSi vous êtes intéressé(e), n'hésitez pas à remplir \n<a href=\"https://docs.google.com/forms/d/1iDj2T67KURLoPDFFIQZ3cjX6Ph6tj5-GpeNjxSdtH78/edit\">\nce formulaire\n</a> \net vous serez rapidement recontacté(e) par notre équipe. \n<br> \n<br>\n\nBon visionnage et, comme d'habitude, n'hésitez pas à nous faire vos retours, à mettre un pouce bleu et laisser un commentaire pour nous encourager !",
+    "mainEn" : "Hello everyone! \n<br>\n<br> \n\nThe JS² team is launching a new series of videos and this is the introduction!\nThe idea is that a volunteer presents a concept, a notion or even a formula that is important to them and that is sufficiently fundamental in their field. The presentation will last between 3 and 10 minutes and will be interspersed with stupid questions to make this scientific concept accessible to all.\n<br>\n\nIn short, what is in SEE IT CRYSTAL? It is possibly a vox pop – the appearance co-scripted with JS² - a short summary by JS² - and finally a short presentation of the research field by the guest. \n<br>\n\nIf you are interested, please fill \n<a href=\"https://docs.google.com/forms/d/1iDj2T67KURLoPDFFIQZ3cjX6Ph6tj5-GpeNjxSdtH78/edit\">\nthis form\n</a> \n and our team will contact you shortly.\n<br> \n<br>\n\nEnjoy, and as always, don’t hesitate to leave us a comment, a question or cheer us on with a little blue thumb!",
+    "modifiedAt" : "Sat Jan 05 2019 20:17:12 GMT+0100 (heure normale d’Europe centrale)",
+    "title" : "\"Y voir plus clair avec Sofia\" - Introduction",
+    "titleEn" : "\"See it crystal with Sofia\" – Introduction",
+    "video" : {
+      "url" : "https://www.youtube.com/embed/FMPuU3R38wY"
+    }
+  } ]
+}

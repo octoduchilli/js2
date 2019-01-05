@@ -3,19 +3,23 @@
     <h1 class="title-sentence">Journal - {{__journal.title}}</h1>
     <div @click="$router.go(-1)" class="back row align-center">
       <img class="back-arrow" src="/static/img/buttons/basics/left-arrow-white.png" alt="ARROW">
-      <p class="back-label">RETOUR</p>
+      <p class="back-label">{{$t('back')}}</p>
     </div>
     <div class="width column align-center" v-if="!modified">
       <basic-input class="margin-20" :input="title.input"/>
+      <basic-input class="margin-20" :input="titleEn.input"/>
       <basic-input class="margin-20" v-for="url in images.urls" :key="url.id" :input="url.input"/>
       <basic-button style="width: 250px" class="margin-20" :button="buttons.moreImage"/>
       <p class="margin-20">*Laisser vide pour ne pas sauvegarder l'image (sauf url n°1).</p>
       <basic-input class="margin-20" :input="card.description.input"/>
+      <basic-input class="margin-20" :input="card.descriptionEn.input"/>
       <basic-input class="margin-20" :input="card.miniature.url.input"/>
       <basic-textarea class="margin-20" :textarea="main.input"/>
+      <basic-textarea class="margin-20" :textarea="mainEn.input"/>
       <basic-button style="margin: auto" :button="buttons.create"/>
       <h1 class="title-sentence">Aperçu globale</h1>
-      <p class="text-center">* L'aperçu est visible une fois l'ensemble des champs remplis *</p>
+      <p class="text-center">* L'aperçu est visible une fois l'ensemble des champs remplis (sauf anglais) *</p>
+      <p class="text-center">* S'il n'y a pas de texte en anglais, le texte en français sera pris par défaut *</p>
       <div v-if="__list" class="width column align-center">
         <basic-card-list :list="__list" :noLink="true"/>
         <basic-article style="padding: 70px 0;" v-if="__list.content[0]" :article="__list.content[0]"/>
@@ -35,6 +39,13 @@ export default {
       title: {
         input: {
           label: 'Titre',
+          text: '',
+          type: 'text'
+        }
+      },
+      titleEn: {
+        input: {
+          label: 'Titre - Anglais',
           text: '',
           type: 'text'
         }
@@ -59,6 +70,13 @@ export default {
             type: 'text'
           }
         },
+        descriptionEn: {
+          input: {
+            label: 'Descriptif de la card - Anglais',
+            text: '',
+            type: 'text'
+          }
+        },
         miniature: {
           url: {
             input: {
@@ -72,6 +90,12 @@ export default {
       main: {
         input: {
           label: 'Texte principale',
+          text: ''
+        }
+      },
+      mainEn: {
+        input: {
+          label: 'Texte principale - Anglais',
           text: ''
         }
       },
@@ -104,9 +128,12 @@ export default {
 
       if (journal && !this.title.input.text) {
         this.title.input.text = journal.title
+        this.titleEn.input.text = journal.titleEn
         this.card.description.input.text = journal.card.description
+        this.card.descriptionEn.input.text = journal.card.descriptionEn
         this.card.miniature.url.input.text = journal.card.miniature.url
         this.main.input.text = journal.main
+        this.mainEn.input.text = journal.mainEn
 
         images.urls = []
 
@@ -137,9 +164,12 @@ export default {
     },
     __list () {
       let title = this.title
+      let titleEn = this.titleEn
       let images = this.images
       let card = this.card
+      let descriptionEn = this.card.descriptionEn
       let main = this.main
+      let mainEn = this.mainEn
       let journals = this.__journals
       let date = new Date()
 
@@ -161,7 +191,7 @@ export default {
           })
         })
 
-        list.content.push({
+        let item = {
           id: this.__journal.id,
           title: title.input.text,
           images: img,
@@ -174,7 +204,23 @@ export default {
           main: main.input.text,
           createdAt: this.__journal.createdAt,
           modified: date.toString()
-        })
+        }
+
+        if (this.$i18n.locale === 'en') {
+          if (titleEn.input.text) {
+            item.title = titleEn.input.text
+          }
+
+          if (descriptionEn.input.text) {
+            item.card.description = descriptionEn.input.text
+          }
+
+          if (mainEn.input.text) {
+            item.main = mainEn.input.text
+          }
+        }
+
+        list.content.push(item)
 
         return list
       }
@@ -208,9 +254,12 @@ export default {
   methods: {
     modif () {
       let title = this.title
+      let titleEn = this.titleEn
       let images = this.images
       let card = this.card
+      let descriptionEn = this.card.descriptionEn
       let main = this.main
+      let mainEn = this.mainEn
       let journals = this.__journals
       let date = new Date()
 
@@ -225,14 +274,17 @@ export default {
 
         db.ref(`journals/${this.__journal.id}`).update({
           title: title.input.text,
+          titleEn: titleEn.input.text || null,
           images: img,
           card: {
             description: card.description.input.text,
+            descriptionEn: descriptionEn.input.text || null,
             miniature: {
               url: card.miniature.url.input.text
             }
           },
           main: main.input.text,
+          mainEn: mainEn.input.text || null,
           modifiedAt: date.toString()
         }).then(_ => {
           this.modified = true

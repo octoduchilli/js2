@@ -1,6 +1,6 @@
 <template>
   <div @click="button.click = true" class="basic-button flex align-center justi-center">
-    <p class="label">{{button.label}}</p>
+    <p class="label">{{$t(button.label)}}</p>
   </div>
 </template>
 

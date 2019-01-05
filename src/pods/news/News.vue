@@ -1,7 +1,7 @@
 <template>
   <div class="news column align-center">
-    <h1 class="title-sentence">Le blog de JS²</h1>
-    <p class="normal-sentence">Dans cette rubrique, vous pouvez trouver des articles, pour votre culture générale, ou des bons plans que nous avons jugés intéressants de vous communiquer, mais également toutes les informations concernant nos évènements et l'avancée de nos projets. N'hésitez pas à y jeter un oeil régulièrement si vous voulez nous suivre et découvrir de nouvelles choses !</p>
+    <h1 class="title-sentence">{{$t('new.title')}}</h1>
+    <p class="normal-sentence" v-html="$t('new.description')"></p>
     <div class="filters" :class="[__window.width <= 900 ? 'column' : 'row']">
       <basic-dropdown class="margin-10" :dropdown="news.filters.date"/>
       <basic-dropdown class="margin-10" :dropdown="news.filters.title"/>
@@ -98,6 +98,10 @@ export default {
       let news = this.news
 
       news.content.sort((a, b) => {
+        if (this.$i18n.locale === 'en') {
+          return ('' + a.titleEn).localeCompare(b.titleEn)
+        }
+
         return ('' + a.title).localeCompare(b.title)
       })
     },
@@ -105,6 +109,10 @@ export default {
       let news = this.news
 
       news.content.sort((a, b) => {
+        if (this.$i18n.locale === 'en') {
+          return ('' + b.titleEn).localeCompare(a.titleEn)
+        }
+
         return ('' + b.title).localeCompare(a.title)
       })
     }
