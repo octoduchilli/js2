@@ -1,0 +1,128 @@
+{
+  "journals" : [ {
+    "card" : {
+      "description" : "Le plus beau paysage, wow !",
+      "miniature" : {
+        "url" : "https://www.cerema.fr/sites/default/files/styles/uas_medium/public/media/images/2017/11/mountain-village-2657307_1920.jpg?h=d6fbcf4a&itok=TZf3f2xW"
+      }
+    },
+    "createdAt" : "Tue Sep 04 2018 14:26:36 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 0,
+    "images" : [ {
+      "url" : "https://www.cerema.fr/sites/default/files/styles/uas_medium/public/media/images/2017/11/mountain-village-2657307_1920.jpg?h=d6fbcf4a&itok=TZf3f2xW"
+    } ],
+    "main" : "J'ai pas pris cette photo mais m'en fou je dis qu'elle est à moi :)",
+    "title" : "Journal de Josselin "
+  }, {
+    "card" : {
+      "description" : "Venez voir j'ai plein de chats !",
+      "miniature" : {
+        "url" : "https://img1.topsante.com/var/topsante/storage/images/forme-et-bien-etre/mieux-vivre/mieux-se-connaitre/la-litiere-pour-chat-serait-elle-la-cause-de-vos-coups-de-colere-610494/8684061-1-fre-FR/La-litiere-pour-chat-serait-elle-la-cause-de-vos-coups-de-colere_width1024.jpg"
+      }
+    },
+    "createdAt" : "Tue Sep 04 2018 14:32:05 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 1,
+    "images" : [ {
+      "url" : "https://img1.topsante.com/var/topsante/storage/images/forme-et-bien-etre/mieux-vivre/mieux-se-connaitre/la-litiere-pour-chat-serait-elle-la-cause-de-vos-coups-de-colere-610494/8684061-1-fre-FR/La-litiere-pour-chat-serait-elle-la-cause-de-vos-coups-de-colere_width1024.jpg"
+    }, {
+      "url" : "https://www.wikichat.fr/wp-content/uploads/sites/2/comment-soigner-une-plaie-dun-chat.jpg"
+    }, {
+      "url" : "https://www.demotivateur.fr/images-buzz/1000/chat-coeur.jpg"
+    }, {
+      "url" : "https://www.rtl2007.fr/wp-content/uploads/2017/08/odeurs-chats-detestent-1.jpg"
+    } ],
+    "main" : "Y'a des mignons, des gentils, des petits <span style=\"color: red\"> coeurs </span> mais aussi des pas bô ! :0\n<br>\n<br>\n<br>\n<br>\nC'est trop bien :)",
+    "modifiedAt" : "Tue Sep 04 2018 14:33:34 GMT+0200 (heure d’été d’Europe centrale)",
+    "title" : "Mes chats"
+  } ],
+  "news" : [ {
+    "card" : {
+      "description" : "C'était complètement fou. Venez voir ! Et ne faites pas attention au panneau stop. ;)",
+      "miniature" : {
+        "url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/France_road_sign_AB4.svg/1200px-France_road_sign_AB4.svg.png"
+      }
+    },
+    "createdAt" : "Tue Sep 04 2018 14:41:30 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 0,
+    "images" : [ {
+      "url" : "https://i.pinimg.com/736x/e0/d8/d6/e0d8d676ab4bfe2809fa03d478cfe081--funny-accidents-crazy-cars.jpg"
+    } ],
+    "main" : "<p style=\"margin: 50px 0; transform: rotate(-20deg)\"> C'était comme un avion qui décolle </p>\n\nWow !",
+    "modifiedAt" : "Tue Sep 04 2018 14:43:01 GMT+0200 (heure d’été d’Europe centrale)",
+    "title" : "Un malheureux accident..."
+  } ],
+  "videos" : [ {
+    "card" : {
+      "description" : "Une vidéo de notre cher Doc Seven. Un bon gars.",
+      "miniature" : {
+        "url" : "https://yt3.ggpht.com/a-/ACSszfHtlG_omfqKKFAj1CwSZ2IcOURn-ERjaRGfSw=s900-mo-c-c0xffffffff-rj-k-no"
+      }
+    },
+    "createdAt" : "Tue Sep 04 2018 14:48:32 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 0,
+    "main" : "N'hésitez pas à lui laisser un beau commentaire !\n<br>\n\nAllez voir sa seconde <a href=\"https://www.youtube.com/channel/UCDSFU2YPWmpwHDEF-PtP7Mg\" style=\"background: blue; color: white; text-decoration: none; padding: 5px 20px\">chaîne<a> aussi !\n<br>\n\n<h1 class=\"text-center\">A PLUS !</h1>",
+    "modifiedAt" : "Tue Sep 04 2018 14:52:20 GMT+0200 (heure d’été d’Europe centrale)",
+    "title" : "77 faits surprenants sur la Pub",
+    "video" : {
+      "url" : "https://www.youtube.com/embed/Hl36Ax4JCC8"
+    }
+  } ],
+  "messages" : {
+    "journals" : {
+      "1" : [
+        {
+          "id" : 0,
+          "name" : "Josselin ADA",
+          "createdAt" : "Tue Nov 04 2018 14:26:36 GMT+0200 (heure d’été d’Europe centrale)",
+          "content" : "id : 0, validated: true, new: false",
+          "validated" : true,
+          "new" : false
+        }, {
+          "id" : 1,
+          "name" : "Josselin ADA",
+          "createdAt" : "Tue Sep 04 2018 18:26:36 GMT+0200 (heure d’été d’Europe centrale)",
+          "content" : "id : 1, validated: false, new: false",
+          "validated" : false,
+          "new" : false
+        }, {
+          "id" : 2,
+          "name" : "Josselin ADA",
+          "createdAt" : "Tue Dec 04 2018 19:31:16 GMT+0200 (heure d’été d’Europe centrale)",
+          "content" : "id : 2, validated: false, new: true",
+          "validated" : true,
+          "new" : true
+        } ]
+    },
+    "news" : {
+      "0" : [
+        {
+          "id" : 0,
+          "name" : "Josselin ADA",
+          "createdAt" : "Tue Nov 04 2018 14:26:36 GMT+0200 (heure d’été d’Europe centrale)",
+          "content" : "Vraiment passionnat !",
+          "validated" : true,
+          "new" : false
+        }, {
+          "id" : 1,
+          "name" : "Josselin ADA",
+          "createdAt" : "Tue Sep 04 2018 18:26:36 GMT+0200 (heure d’été d’Europe centrale)",
+          "content" : "Wsh les gars bien ou quoi",
+          "validated" : false,
+          "new" : false
+        }
+      ]
+    },
+    "videos" : {
+      "0" : [
+        {
+          "id" : 0,
+          "name" : "Josselin ADA",
+          "createdAt" : "Tue Nov 04 2018 14:26:36 GMT+0200 (heure d’été d’Europe centrale)",
+          "content" : "Une vidéo très instructive",
+          "validated" : true,
+          "new" : false
+        }
+      ]
+    }
+  }
+}

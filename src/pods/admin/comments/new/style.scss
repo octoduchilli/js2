@@ -1,0 +1,32 @@
+.new {
+
+  .title-sentence {
+    width: calc(100% - 40px);
+
+    padding: 10px 20px;
+
+    color: var(--creme);
+
+    background: var(--black100);
+  }
+
+  .title-sentence:nth-child(1) {
+    margin: 0;
+
+    background: var(--black70);
+  }
+
+  .title-sentence:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .title-article {
+    padding: 5px 20px;
+
+    background: var(--black40);
+
+    border-radius: 100px;
+
+    color: var(--creme);
+  }
+}

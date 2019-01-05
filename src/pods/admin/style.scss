@@ -1,0 +1,83 @@
+.admin {
+  padding-top: 140px;
+
+  min-height: calc(100vh - 140px);
+
+  .connection {
+    border-radius: 10px;
+    border: 1px solid grey;
+
+    padding: 0 15px 15px 15px;
+
+    .tilte {
+      letter-spacing: 1px;
+    }
+
+    .password {
+      width: calc(100% - 20px);
+
+      padding: 5px 10px;
+
+      border: 2px solid lightgray;
+    }
+
+    .connection-button {
+      cursor: pointer;
+
+      margin-top: 50px;
+
+      margin-left: auto;
+
+      padding: 10px;
+
+      background: var(--black40);
+
+      border-radius: 5px 0 0 5px;
+
+      color: var(--creme);
+
+      transform: translateX(15px);
+
+      &:hover .button-img {
+        transform: rotate(180deg) scale(1.15);
+      }
+
+      .label {
+        margin: 0;
+
+        font-family: 'Viga', sans-serif;
+      }
+
+      .button-img {
+        margin-left: 30px;
+
+        transform: rotate(180deg);
+
+        height: 30px;
+        width: 30px;
+
+        transition: .3s ease;
+      }
+    }
+  }
+
+  .disconnect-button {
+    cursor: pointer;
+
+    margin: 0 0 50px auto;
+
+    padding: 15px 40px 15px 15px;
+
+    background: var(--black40);
+
+    border-radius: 5px 0 0 5px;
+
+    color: var(--creme);
+
+    .label {
+      margin: 0;
+
+      font-family: 'Viga', sans-serif;
+    }
+  }
+}

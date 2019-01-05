@@ -1,0 +1,36 @@
+.basic-link-button {
+  cursor: pointer;
+
+  height: 45px;
+  width: 180px;
+
+  padding: 0 10px;
+
+  justify-content: space-around;
+
+  background: var(--black40);
+
+  color: white;
+
+  font-family: 'Viga', sans-serif;
+
+  border-radius: 5px;
+
+  transition: .5s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 3px 3px gray;
+  }
+
+  .link-image {
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+  }
+
+  .label {
+    margin: 5px;
+  }
+}

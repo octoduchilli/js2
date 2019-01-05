@@ -1,0 +1,19 @@
+.comments {
+  margin-top: 50px;
+
+  padding-bottom: 150px;
+
+  .title-sentence {
+    width: calc(100% - 40px);
+
+    padding: 10px 20px;
+
+    color: var(--creme);
+
+    background: var(--black40);
+  }
+
+  .title-sentence:nth-child(1) {
+    margin: 0;
+  }
+}

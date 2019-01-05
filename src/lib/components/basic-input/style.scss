@@ -1,0 +1,39 @@
+.basic-input {
+  position: relative;
+
+  font-size: 16px;
+
+  .label {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+
+    letter-spacing: 1px;
+
+    background: white;
+
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+
+    padding: 0 10px;
+
+    margin: 0;
+  }
+
+  .input {
+    font-family: monospace;
+
+    height: 35px;
+    width: 300px;
+
+    font-size: 16px;
+
+    padding: 5px 10px;
+
+    background: white;
+
+    border: 2px solid lightgrey;
+
+    border-radius: 3px;
+  }
+}

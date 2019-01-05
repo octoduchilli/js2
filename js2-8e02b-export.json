@@ -1,0 +1,177 @@
+{
+  "journals" : [ {
+    "card" : {
+      "description" : "Description de la carte du journal n°1",
+      "miniature" : {
+        "url" : "url"
+      }
+    },
+    "createdAt" : "Fri Aug 31 2018 16:00:45 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 0,
+    "main" : "Texte principale du journal n°1 : Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. in quibus hoc primum est in quo admirer, cur in gravissimis rebus non delectet eos sermo patrius, cum idem fabellas Latinas ad verbum e Graecis expressas non inviti legant. quis enim tam inimicus paene nomini Romano est, qui Ennii Medeam aut Antiopam Pacuvii spernat aut reiciat, quod se isdem Euripidis fabulis delectari dicat, Latinas litteras oderit? Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris agitationibus maximeque sinistra, ut longiores fimbriae tunicaeque perspicue luceant varietate liciorum effigiatae in species animalium multiformes. Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit, in illo aetatis progressu effervescebat, obstinatum eius propositum accendente adulatorum cohorte.",
+    "images" : [ {
+      "url" : "url n°1"
+    }, {
+      "url" : "url n°2"
+    } ],
+    "title" : "Titre du journal n°1"
+  }, {
+    "card" : {
+      "description" : "Description de la carte du journal n°2",
+      "miniature" : {
+        "url" : "url"
+      }
+    },
+    "createdAt" : "Fri Aug 31 2018 16:04:17 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 1,
+    "main" : "Texte principale du journal n°2 : Iripidis fabulis delectari dicat, Latinas litteras oderit? Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris agitationibus maximeque sinistra, ut longiores fimbriae tunicaeque perspicue luceant varietate liciorum effigiatae in species animalium multiformes. Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit, in illo aetatis progressu effervescebat, obstinatum eius propositum accendente adulatorum cohorte.",
+    "images" : [ {
+      "url" : "url n°1"
+    }, {
+      "url" : "url n°2"
+    } ],
+    "title" : "Titre du journal n°2"
+  }, {
+    "card" : {
+      "description" : "Description de la carte du journal n°3",
+      "miniature" : {
+        "url" : "url"
+      }
+    },
+    "createdAt" : "Fri Aug 31 2018 16:04:27 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 2,
+    "main" : "Texte principale du journal n°3 : Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. in quibus hoc primum est in quo admirer, cur in gravissimis rebus non delectet eos sermo patrius, cum idem fabellas Latinas ad verbum e Graecis expressas non inviti legant. quis enim tam inimicus paene nomini Romano est, qui Ennii Medeam aut Antiopam Pacuvii spernat aut reiciat, quod se isdem Euripidis fabulis delectari dicat, Latinas litteras oderit? Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris agitationibus maximeque sin species animalium multiformes. Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit, in illo aetatis progressu effervescebat, obstinatum eius propositum accendente adulatorum cohorte.",
+    "images" : [ {
+      "url" : "url n°1"
+    }, {
+      "url" : "url n°2"
+    } ],
+    "title" : "Titre du journal n°3"
+  }, {
+    "card" : {
+      "description" : "Description de la carte du journal n°4",
+      "miniature" : {
+        "url" : "url"
+      }
+    },
+    "createdAt" : "Fri Aug 31 2018 16:04:36 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 3,
+    "main" : "Texte principale du journal n°4 : Iis igitur est pescit, in illo aetatis progressu effervescebat, obstinatum eius propositum accendente adulatorum cohorte.",
+    "images" : [ {
+      "url" : "url n°1"
+    }, {
+      "url" : "url n°2"
+    } ],
+    "title" : "Titre du journal n°4"
+  }, {
+    "card" : {
+      "description" : "Description de la carte du journal n°5",
+      "miniature" : {
+        "url" : "url"
+      }
+    },
+    "createdAt" : "Fri Aug 31 2018 16:04:46 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 4,
+    "main" : "Texte principale du journal n°5 : Is delectari dicat, Latinas litteras oderit? Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris agitationibus maximeque sinistra, ut longiores fimbriae tunicaeque perspicue luceant varietate liciorum effigiatae in species animalium multiformes. Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit, in illo aetatis progressu effervescebat, obstinatum eius propositum accendente adulatorum cohorte.",
+    "images" : [ {
+      "url" : "url n°1"
+    }, {
+      "url" : "url n°2"
+    } ],
+    "title" : "Titre du journal n°5"
+  } ],
+  "news" : [ {
+    "card" : {
+      "description" : "Résumé de la carte de l'actualité n°1",
+      "miniature" : {
+        "url" : "url"
+      }
+    },
+    "createdAt" : "Fri Aug 31 2018 16:10:43 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 0,
+    "images" : [ {
+      "url" : "url n°1"
+    }, {
+      "url" : "url n°2"
+    } ],
+    "main" : "Texte principale de l'actualité n°1 : Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. in quibus hoc primum est in quo admirer, cur in gravissimis rebus non delectet eos sermo patrius, cum idem fabellas Latinas ad verbum e Graecis expressas non inviti legant. quis enim tam inimicus paene nomini Romano est, qui Ennii Medeam aut Antiopam Pacuvii spernat aut reiciat, quod se isdem Euripidis fabulis delectari dicat, Latinas litteras oderit? Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris agitationibus maximeque sinistra, ut longiores fimbriae tunicaeque perspicue luceant varietate liciorum effigiatae in species animalium multiformes. Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit, in illo aetatis progressu effervescebat, obstinatum eius propositum accendente adulatorum cohorte.",
+    "title" : "Titre de l'actualité n°1"
+  }, {
+    "card" : {
+      "description" : "Résumé de la carte de l'actualité n°2",
+      "miniature" : {
+        "url" : "url"
+      }
+    },
+    "createdAt" : "Fri Aug 31 2018 16:10:57 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 1,
+    "images" : [ {
+      "url" : "url n°1"
+    } ],
+    "main" : "Texte principale de l'actualité n°2 : Iripidis fabulis delectari dicat, Latinas litteras oderit? Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris agitationibus maximeque sinistra, ut longiores fimbriae tunicaeque perspicue luceant varietate liciorum effigiatae in species animalium multiformes. Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit, in illo aetatis progressu effervescebat, obstinatum eius propositum accendente adulatorum cohorte.",
+    "title" : "Titre de l'actualité n°2"
+  }, {
+    "card" : {
+      "description" : "Résumé de la carte de l'actualité n°3",
+      "miniature" : {
+        "url" : "url"
+      }
+    },
+    "createdAt" : "Fri Aug 31 2018 16:11:04 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 2,
+    "images" : [ {
+      "url" : "url n°1"
+    }, {
+      "url" : "url n°2"
+    }, {
+      "url" : "url n°3"
+    }, {
+      "url" : "url n°4"
+    } ],
+    "main" : "Texte principale l'actualité n°3 : Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. in quibus hoc primum est in quo admirer, cur in gravissimis rebus non delectet eos sermo patrius, cum idem fabellas Latinas ad verbum e Graecis expressas non inviti legant. quis enim tam inimicus paene nomini Romano est, qui Ennii Medeam aut Antiopam Pacuvii spernat aut reiciat, quod se isdem Euripidis fabulis delectari dicat, Latinas litteras oderit? Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris agitationibus maximeque sin species animalium multiformes. Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit, in illo aetatis progressu effervescebat, obstinatum eius propositum accendente adulatorum cohorte.",
+    "title" : "Titre l'actualité n°3"
+  } ],
+  "videos" : [ {
+    "card" : {
+      "description" : "Résumé de la carte de la vidéo n°1",
+      "miniature" : {
+        "url" : "url"
+      }
+    },
+    "createdAt" : "Fri Aug 31 2018 18:10:43 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 0,
+    "main" : "Texte principale de la vidéo n°1 : Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. in quibus hoc primum est in quo admirer, cur in gravissimis rebus non delectet eos sermo patrius, cum idem fabellas Latinas ad verbum e Graecis expressas non inviti legant. quis enim tam inimicus paene nomini Romano est, qui Ennii Medeam aut Antiopam Pacuvii spernat aut reiciat, quod se isdem Euripidis fabulis delectari dicat, Latinas litteras oderit? Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris agitationibus maximeque sinistra, ut longiores fimbriae tunicaeque perspicue luceant varietate liciorum effigiatae in species animalium multiformes. Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit, in illo aetatis progressu effervescebat, obstinatum eius propositum accendente adulatorum cohorte.",
+    "title" : "Titre de la vidéo n°1",
+    "video" : {
+      "url" : "https://www.youtube.com/embed/fm4EP_tWmXs"
+    }
+  }, {
+    "card" : {
+      "description" : "Résumé de la carte de la vidéo n°2",
+      "miniature" : {
+        "url" : "url"
+      }
+    },
+    "createdAt" : "Fri Aug 31 2018 19:14:07 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 1,
+    "main" : "Texte principale de la vidéo n°2 : Iripidis fabulis delectari dicat, Latinas litteras oderit? Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris agitationibus maximeque sinistra, ut longiores fimbriae tunicaeque perspicue luceant varietate liciorum effigiatae in species animalium multiformes. Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit, in illo aetatis progressu effervescebat, obstinatum eius propositum accendente adulatorum cohorte.",
+    "title" : "Titre de la vidéo n°2",
+    "video" : {
+      "url" : "https://www.youtube.com/embed/sirIw5ODpcE"
+    }
+  }, {
+    "card" : {
+      "description" : "La description sur la card",
+      "miniature" : {
+        "url" : "url"
+      }
+    },
+    "createdAt" : "Fri Aug 31 2018 21:14:07 GMT+0200 (heure d’été d’Europe centrale)",
+    "id" : 2,
+    "main" : "Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. in quibus hoc primum est in quo admirer, cur in gravissimis rebus non delectet eos sermo patrius, cum idem fabellas Latinas ad verbum e Graecis expressas non inviti legant. quis enim tam inimicus paene nomini Romano est, qui Ennii Medeam aut Antiopam Pacuvii spernat aut reiciat, quod se isdem Euripidis fabulis delectari dicat, Latinas litteras oderit? Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris ag.",
+    "title" : "Ma nouvelle vidéo",
+    "video" : {
+      "url" : "https://www.youtube.com/embed/51zwaLa3apE"
+    }
+  } ]
+}

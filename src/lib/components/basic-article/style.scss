@@ -1,0 +1,178 @@
+.basic-article{
+
+  .article-image {
+    position: relative;
+
+    min-height: 450px;
+    min-width: 450px;
+
+    max-height: 450px;
+    max-width: 450px;
+
+    background: var(--white10);
+
+    border-radius: 10px;
+
+    &::after {
+      content: "";
+
+      position: absolute;
+
+      top: 0;
+      left: 0;
+
+      height: 450px;
+      width: 450px;
+
+      background: var(--white10);
+
+      transform: rotate(22.5deg);
+
+      z-index: -1;
+
+      border-radius: 10px;
+    }
+
+    &::before {
+      content: "";
+
+      position: absolute;
+
+      top: 0;
+      left: 0;
+
+      height: 450px;
+      width: 450px;
+
+      background: var(--white10);
+
+      transform: rotate(-22.5deg);
+
+      z-index: -1;
+
+      border-radius: 10px;
+    }
+
+    .image {
+      max-height: 400px;
+      max-width: 400px;
+
+      border-radius: 5px;
+
+      transition: .5s ease;
+
+      &:hover {
+        filter: brightness(1.15)
+      }
+    }
+
+    .button-switch {
+      cursor: pointer;
+
+      position: absolute;
+
+      opacity: .3;
+
+      background: var(--black40);
+
+      color: var(--creme);
+
+      transition: .5s ease;
+
+      padding: 10px 20px;
+
+      &:hover {
+        opacity: .8;
+      }
+
+      .arrow {
+        height: 25px;
+        width: 25px;
+      }
+    }
+
+    .previous {
+      border-radius: 0 5px 5px 5px;
+
+      bottom: 0;
+      left: 0;
+    }
+
+    .next {
+      border-radius: 5px 0 5px 5px;
+
+      bottom: 0;
+      right: 0;
+
+      .arrow {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .article-main, .article-date {
+    padding: 10px;
+  }
+
+  .article-date {
+
+    font-size: 12px;
+
+    margin-left: 30px;
+
+    span {
+      padding: 5px 10px;
+
+      border-radius: 100px;
+
+      background: var(--black70);
+
+      color: var(--creme);
+    }
+  }
+
+  .article-main {
+    line-height: 27px;
+  }
+
+  .article-title {
+    padding: 5px 25px;
+
+    border-radius: 100px;
+
+    background: var(--black40);
+
+    color: var(--creme);
+
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 500px) {
+  .basic-article{
+
+    .article-image {
+
+      min-height: 300px;
+      min-width: 300px;
+
+      max-height: 300px;
+      max-width: 300px;
+
+      &::after {
+        height: 300px;
+        width: 300px;
+      }
+
+      &::before {
+        height: 300px;
+        width: 300px;
+      }
+
+      .image {
+        max-height: 250px;
+        max-width: 250px;
+      }
+    }
+  }
+}

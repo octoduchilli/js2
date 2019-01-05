@@ -1,0 +1,67 @@
+.basic-message {
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 100px;
+
+  margin: 10px;
+
+  p {
+    margin: 10px;
+  }
+
+  .message-infos {
+    height: 100%;
+    min-width: 75px;
+    min-height: 100px;
+
+    .name {
+      font-size: 12px;
+    }
+
+    .date {
+      color: gray;
+      font-size: 8px;
+    }
+  }
+
+  .message {
+    font-family: monospace;
+
+    height: 100%;
+    min-width: 525px;
+    min-height: 100px;
+
+    background: var(--white10);
+
+    .admin-buttons {
+      background: var(--black40);
+
+      color: var(--creme);
+
+      span.pointer {
+        transition: .3s ease;
+
+        padding: 2px 4px;
+
+        &:hover {
+          color: black;
+
+          background: white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .basic-message {
+    min-width: 300px;
+    max-width: 300px;
+
+    .message {
+      min-width: 225px;
+
+      font-size: 13px;
+    }
+  }
+}

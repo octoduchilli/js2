@@ -1,0 +1,61 @@
+.contact {
+  padding-top: 140px;
+
+  .social-list {
+    font-family: 'Viga', sans-serif;
+
+    width: 50%;
+
+    .social {
+      margin: 30px;
+
+      .link {
+
+        &:hover .link-img {
+          transform: scale(1.1) rotate(-5deg);
+        }
+
+        .link-img {
+          width: 75px;
+          height: 75px;
+
+          margin-right: 25px;
+
+          transition: .5s ease;
+        }
+      }
+
+      .no--link {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+      }
+    }
+  }
+
+  .link-admin {
+    opacity: .5;
+
+    margin: 20px;
+    margin-left: auto;
+
+    .link-img {
+      height: 25px;
+      width: 25px;
+
+      margin-right: 10px;
+    }
+  }
+
+  .mail-form {
+    width: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact {
+
+    .social-list, .mail-form {
+      width: 100%;
+    }
+  }
+}
