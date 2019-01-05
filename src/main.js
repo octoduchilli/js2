@@ -15,7 +15,7 @@ import fr from './locales/fr/translations'
 
 Vue.use(VueI18n)
 
-const locale = 'en'
+const locale = 'fr'
 
 const messages = {
   en: en,
