@@ -269,7 +269,7 @@ export default {
             }
           },
           main: main.input.text,
-          mainEn: main.input.text || null,
+          mainEn: mainEn.input.text || null,
           createdAt: date.toString()
         }).then(_ => {
           this.created = true
