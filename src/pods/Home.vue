@@ -4,6 +4,10 @@
       <img class="logo animated fadeInLeft" :src="`${logo.mouseover ? '/static/img/logo/no-bg.png' : '/static/img/logo/base.png'}`" @mouseover="logo.mouseover = true" @mouseout="logo.mouseover = false" alt="JS2">
       <h1 class="logo-title">{{$t("home.title")}}</h1>
     </section>
+    <div class="home__banner" @click="$i18n.locale === 'en' ? $i18n.locale = 'fr' : $i18n.locale = 'en'">
+      <h1 class="banner__title">{{$i18n.locale === 'en' ? 'Return to the french version' : 'Version anglaise disponible !'}}</h1>
+      <img class="banner__flag" :src="`/static/img/flags/${$i18n.locale === 'en' ? 'fr' : 'en'}.jpg`" alt="">
+    </div>
     <section>
       <p class="normal-sentence">{{$t("home.description")}}</p>
       <h1 class="title-sentence text-center">{{$t("home.last_article")}} :</h1>
